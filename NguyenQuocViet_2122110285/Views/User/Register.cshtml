@@ -77,7 +77,11 @@
                 </form>
             </article><!-- card-body.// -->
         </div> <!-- card .// -->
-        <p class="text-center mt-4">Have an account? <a href="">Log In</a></p>
+        <p class="text-center mt-4">
+            Have an account?
+            @Html.ActionLink("Log In", "Login", "User", null, new { @class = "" })
+        </p>
+
         <br><br>
         <!-- ============================ COMPONENT REGISTER  END.// ================================= -->
 

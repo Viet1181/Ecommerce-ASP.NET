@@ -423,7 +423,7 @@
     <Content Include="Views\Category\CategoryAll.cshtml" />
     <Content Include="Views\User\Register.cshtml" />
     <Content Include="Views\User\Login.cshtml" />
-    <Content Include="Views\Cart\ShopingCart.cshtml" />
+    <Content Include="Views\Cart\ShoppingCart.cshtml" />
     <Content Include="Views\List\ListingGrid.cshtml" />
     <Content Include="Views\List\ListingLagre.cshtml" />
   </ItemGroup>

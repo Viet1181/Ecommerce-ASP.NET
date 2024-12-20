@@ -35,7 +35,11 @@
             </div> <!-- card-body.// -->
         </div> <!-- card .// -->
 
-        <p class="text-center mt-4">Don't have account? <a href="#">Sign up</a></p>
+        <p class="text-center mt-4">
+            Don't have an account?
+            @Html.ActionLink("Sign up", "Register", "User", null, new { @class = "" })
+        </p>
+
         <br><br>
         <!-- ============================ COMPONENT LOGIN  END.// ================================= -->
 

@@ -9,7 +9,7 @@ namespace NguyenQuocViet_2122110285.Controllers
     public class CartController : Controller
     {
         // GET: Cart
-        public ActionResult ShopingCart()
+        public ActionResult ShoppingCart()
         {
             return View();
         }

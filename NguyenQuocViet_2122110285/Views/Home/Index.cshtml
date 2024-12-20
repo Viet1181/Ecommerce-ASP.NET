@@ -13,7 +13,16 @@
                         <h6>MY MARKETS</h6>
                         <nav class="nav-home-aside">
                             <ul class="menu-category">
-                                <li><a href="#">Fashion and clothes</a></li>
+                                <li>
+                                    @Html.ActionLink(
+                                        "Fashion and clothes",    // Văn bản hiển thị
+                                        "CategoryAll",            // Tên action
+                                        "Category",               // Tên controller
+                                        null,                     // Route values (không tham số)
+                                        null                      // Thuộc tính HTML bổ sung
+                                    )
+                                </li>
+
                                 <li><a href="#">Automobile and motors</a></li>
                                 <li><a href="#">Gardening and agriculture</a></li>
                                 <li><a href="#">Electronics and tech</a></li>
@@ -449,7 +458,8 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/1.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                      
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -458,7 +468,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/2.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Some item name here</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$280.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -467,7 +477,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/3.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Great product name here</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$56.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -476,7 +486,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/4.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -485,7 +495,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/5.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -494,7 +504,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/6.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Some item name here</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$280.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -503,7 +513,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/7.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Great product name here</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$56.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -512,7 +522,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/9.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -521,7 +531,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/4.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -530,7 +540,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/5.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -539,7 +549,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/6.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Some item name here</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$280.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
@@ -548,7 +558,7 @@
                 <div href="#" class="card card-sm card-product-grid">
                     <a href="#" class="img-wrap"> <img src="~/Content/images/items/7.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Great product name here</a>
+                        @Html.ActionLink("Áo xanh", "ProductDetail", "Product", new { }, null)
                         <div class="price mt-1">$56.00</div> <!-- price-wrap.// -->
                     </figcaption>
                 </div>
