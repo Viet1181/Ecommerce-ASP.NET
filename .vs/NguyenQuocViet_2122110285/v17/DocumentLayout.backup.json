@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|d:\\code\\c# project\\doan(v1)\\nguyenquocviet_2122110285\\nguyenquocviet_2122110285\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|d:\\code\\c# project\\doan(v1)\\nguyenquocviet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -101,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -266,23 +266,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:46:03.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\ProductController.cs",
@@ -294,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
@@ -306,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
@@ -318,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
@@ -336,14 +324,14 @@
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAowAwBAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAqwAwBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-13T11:13:38.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Index.cshtml",
@@ -356,7 +344,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAtwB8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T05:04:56.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T11:46:03.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Index.cshtml",
@@ -368,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Edit.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Edit.cshtml",
@@ -380,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
@@ -392,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Context\\Category.cs",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Context\\Category.cs",
@@ -404,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -416,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
@@ -428,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
@@ -440,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Index.cshtml",
@@ -452,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Add.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Add.cshtml",
@@ -464,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
@@ -476,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\OrderController.cs",
@@ -488,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\UserController.cs",
@@ -500,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BrandController.cs",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\BrandController.cs",
@@ -512,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "XString.cs",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Libary\\XString.cs",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Libary\\XString.cs",
@@ -524,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -536,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Add.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Add.cshtml",
@@ -548,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CategoryAll.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Category\\CategoryAll.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Category\\CategoryAll.cshtml",
@@ -560,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Shared\\_Layout.cshtml",
@@ -569,18 +582,6 @@
               "ViewState": "AgIAAAcBAAAAAAAAAAAowCcBAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-13T12:11:56.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAtwB8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T05:04:56.339Z"
             },
             {
               "$type": "Document",
