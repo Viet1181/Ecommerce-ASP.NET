@@ -157,7 +157,7 @@ namespace NguyenQuocViet_2122110285.Controllers
                             ShippingAddress = model.ShippingAddress,
                             Note = model.Note,
                             PaymentMethod = model.PaymentMethod,
-                            Status = "Pending",
+                            Status = "1",
                             CreatedDate = DateTime.Now
                         };
                         db.Orders.Add(order);

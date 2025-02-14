@@ -74,10 +74,10 @@
                                         <div class="dropdown-menu dropdown-menu-right">
                                             <a class="dropdown-item" href="@Url.Action("Profile", "Home")">Thông tin tài khoản</a>
                                             <a class="dropdown-item" href="@Url.Action("Index", "Order")">Đơn hàng của tôi</a>
-                                            @if (Session["Role"] != null && Session["Role"].ToString() == "Admin")
+                                            @if (Session["Role"].ToString() == "Admin")
                                             {
-                                               
-                                            }<a class="dropdown-item" href="~/Admin/Product/Index">Trang quản trị</a>
+                                                <a class="dropdown-item" href="~/Admin/Product/Index">Trang quản trị</a>
+                                            }
                                             <div class="dropdown-divider"></div>
                                             <a class="dropdown-item" href="@Url.Action("Logout", "Home")">Đăng xuất</a>
                                         </div>

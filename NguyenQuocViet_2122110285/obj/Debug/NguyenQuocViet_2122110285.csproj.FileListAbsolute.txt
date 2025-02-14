@@ -164,3 +164,7 @@ D:\Code\C# Project\DOAN(V1)\NguyenQuocViet_2122110285\NguyenQuocViet_2122110285\
 D:\Code\C# Project\DOAN(V1)\NguyenQuocViet_2122110285\NguyenQuocViet_2122110285\bin\Antlr3.Runtime.pdb
 D:\Code\C# Project\DOAN(V1)\NguyenQuocViet_2122110285\NguyenQuocViet_2122110285\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Code\C# Project\DOAN(V1)\NguyenQuocViet_2122110285\NguyenQuocViet_2122110285\obj\Debug\NguyenQu.F4E96099.Up2Date
+D:\Code\C# Project\DOAN(V1)\NguyenQuocViet_2122110285\NguyenQuocViet_2122110285\bin\PagedList.dll
+D:\Code\C# Project\DOAN(V1)\NguyenQuocViet_2122110285\NguyenQuocViet_2122110285\bin\PagedList.Mvc.dll
+D:\Code\C# Project\DOAN(V1)\NguyenQuocViet_2122110285\NguyenQuocViet_2122110285\bin\PagedList.xml
+D:\Code\C# Project\DOAN(V1)\NguyenQuocViet_2122110285\NguyenQuocViet_2122110285\bin\PagedList.Mvc.xml

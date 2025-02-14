@@ -17,19 +17,19 @@
                             <div class="col text-right">
                                 @switch (Model.Status)
                                 {
-                                    case "Pending":
+                                    case "1":
                                         <span class="badge badge-warning">Chờ xử lý</span>
                                         break;
-                                    case "Confirmed":
+                                    case "2":
                                         <span class="badge badge-info">Đã xác nhận</span>
                                         break;
-                                    case "Shipping":
+                                    case "3":
                                         <span class="badge badge-primary">Đang giao</span>
                                         break;
-                                    case "Completed":
+                                    case "4":
                                         <span class="badge badge-success">Hoàn thành</span>
                                         break;
-                                    case "Cancelled":
+                                    case "5":
                                         <span class="badge badge-danger">Đã hủy</span>
                                         break;
                                     default:
@@ -41,19 +41,19 @@
                     </div>
                     <div class="card-body">
                         <div class="track">
-                            <div class="step @(Model.Status != "Pending" ? "active" : "")">
+                            <div class="step @(Model.Status != "1" ? "active" : "")">
                                 <span class="icon"> <i class="fa fa-check"></i> </span>
                                 <span class="text">Đặt hàng</span>
                             </div>
-                            <div class="step @(Model.Status == "Confirmed" || Model.Status == "Shipping" || Model.Status == "Completed" ? "active" : "")">
-                                <span class="icon"> <i class="fa fa-user"></i> </span>
-                                <span class="text">Xác nhận</span>
-                            </div>
-                            <div class="step @(Model.Status == "Shipping" || Model.Status == "Completed" ? "active" : "")">
-                                <span class="icon"> <i class="fa fa-truck"></i> </span>
-                                <span class="text">Đang giao</span>
-                            </div>
-                            <div class="step @(Model.Status == "Completed" ? "active" : "")">
+                           <div class="step @(Model.Status == "2" || Model.Status == "3" || Model.Status == "4" ? "active" : "")">
+    <span class="icon"> <i class="fa fa-user"></i> </span>
+    <span class="text">Xác nhận</span>
+</div>
+                           <div class="step @(Model.Status == "3" || Model.Status == "4" ? "active" : "")">
+    <span class="icon"> <i class="fa fa-truck"></i> </span>
+    <span class="text">Đang giao</span>
+</div>
+                            <div class="step @(Model.Status == "4" ? "active" : "")">
                                 <span class="icon"> <i class="fa fa-box"></i> </span>
                                 <span class="text">Hoàn thành</span>
                             </div>

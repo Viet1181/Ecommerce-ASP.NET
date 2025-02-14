@@ -44,19 +44,19 @@
                                                 <td>
                                                     @switch (item.Status)
                                                     {
-                                                        case "Pending":
+                                                        case "1":
                                                             <span class="badge badge-warning">Chờ xử lý</span>
                                                             break;
-                                                        case "Confirmed":
+                                                        case "2":
                                                             <span class="badge badge-info">Đã xác nhận</span>
                                                             break;
-                                                        case "Shipping":
+                                                        case "3":
                                                             <span class="badge badge-primary">Đang giao</span>
                                                             break;
-                                                        case "Completed":
+                                                        case "4":
                                                             <span class="badge badge-success">Hoàn thành</span>
                                                             break;
-                                                        case "Cancelled":
+                                                        case "5":
                                                             <span class="badge badge-danger">Đã hủy</span>
                                                             break;
                                                         default:

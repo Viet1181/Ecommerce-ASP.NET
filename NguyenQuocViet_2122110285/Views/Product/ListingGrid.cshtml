@@ -178,7 +178,7 @@
                                         <span class="tag">@item.Category.Name</span>
                                     </p>
 
-                                    <a href="@Url.Action("AddToCart", "Cart", new { id = item.ProductID })" class="btn btn-outline-primary">
+                                    <a href="#" class="btn btn-outline-primary add-to-cart" data-product-id="@item.ProductID">
                                         <i class="fa fa-shopping-cart"></i> Thêm vào giỏ
                                     </a>
                                 </figcaption>
@@ -246,3 +246,36 @@
         </nav>
     }
 </section>
+
+<script>
+    $(document).ready(function() {
+        $('.add-to-cart').click(function(e) {
+            e.preventDefault();
+            var productId = $(this).data('product-id');
+            var quantity = 1; // Số lượng mặc định là 1
+
+            $.ajax({
+                url: '@Url.Action("AddToCart", "Cart")',
+                type: 'POST',
+                data: {
+                    productId: productId,
+                    quantity: quantity
+                },
+                success: function(response) {
+                    if (response.success) {
+                        alert('Thêm vào giỏ hàng thành công!');
+                        // Cập nhật số lượng giỏ hàng trong header (nếu có)
+                        if (response.cartCount) {
+                            $('#cartCount').text(response.cartCount);
+                        }
+                    } else {
+                        alert(response.message || 'Có lỗi xảy ra, vui lòng thử lại!');
+                    }
+                },
+                error: function() {
+                    alert('Có lỗi xảy ra, vui lòng thử lại!');
+                }
+            });
+        });
+    });
+</script>
