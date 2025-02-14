@@ -1,0 +1,90 @@
+﻿
+
+
+@model List<NguyenQuocViet_2122110285.Models.OrderModel>
+@{
+    ViewBag.Title = "Đơn hàng của tôi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section-content padding-y">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Đơn hàng của tôi</h4>
+                    </div>
+                    <div class="card-body">
+                        @if (Model != null && Model.Any())
+                        {
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Mã đơn hàng</th>
+                                            <th>Ngày đặt</th>
+                                            <th>Người nhận</th>
+                                            <th>Tổng tiền</th>
+                                            <th>Trạng thái</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>@item.OrderCode</td>
+                                                <td>@item.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                                                <td>
+                                                    @item.ShippingName<br />
+                                                    <small class="text-muted">@item.ShippingPhone</small>
+                                                </td>
+                                                <td>@item.TotalAmount.ToString("N0") đ</td>
+                                                <td>
+                                                    @switch (item.Status)
+                                                    {
+                                                        case "Pending":
+                                                            <span class="badge badge-warning">Chờ xử lý</span>
+                                                            break;
+                                                        case "Confirmed":
+                                                            <span class="badge badge-info">Đã xác nhận</span>
+                                                            break;
+                                                        case "Shipping":
+                                                            <span class="badge badge-primary">Đang giao</span>
+                                                            break;
+                                                        case "Completed":
+                                                            <span class="badge badge-success">Hoàn thành</span>
+                                                            break;
+                                                        case "Cancelled":
+                                                            <span class="badge badge-danger">Đã hủy</span>
+                                                            break;
+                                                        default:
+                                                            <span class="badge badge-secondary">@item.Status</span>
+                                                            break;
+                                                    }
+                                                </td>
+                                                <td>
+                                                    <a href="@Url.Action("Details", new { id = item.OrderId })" class="btn btn-sm btn-outline-primary">
+                                                        Chi tiết
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="text-center">
+                                <p>Bạn chưa có đơn hàng nào</p>
+                                <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Tiếp tục mua sắm</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

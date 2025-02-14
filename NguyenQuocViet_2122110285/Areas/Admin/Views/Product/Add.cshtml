@@ -1,0 +1,174 @@
+@model NguyenQuocViet_2122110285.Context.Product
+
+@{
+    ViewBag.Title = "Thêm sản phẩm mới";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Thêm sản phẩm mới</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+@using (Html.BeginForm("Add", "Product", FormMethod.Post, new { enctype = "multipart/form-data", id = "addProductForm" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group">
+                        <label>Tên sản phẩm <span class="text-danger">*</span></label>
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Giá <span class="text-danger">*</span></label>
+                        @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", type = "number", min = "0" } })
+                        @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Giá khuyến mãi</label>
+                        @Html.EditorFor(model => model.DiscountPrice, new { htmlAttributes = new { @class = "form-control", type = "number", min = "0" } })
+                        @Html.ValidationMessageFor(model => model.DiscountPrice, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Số lượng <span class="text-danger">*</span></label>
+                        @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control", type = "number", min = "0" } })
+                        @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Thương hiệu <span class="text-danger">*</span></label>
+                        @Html.DropDownList("BrandID", null, "-- Chọn thương hiệu --", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.BrandID, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Danh mục <span class="text-danger">*</span></label>
+                        @Html.DropDownList("CategoryID", null, "-- Chọn danh mục --", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.CategoryID, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mô tả</label>
+                        @Html.TextAreaFor(model => model.Description, new { @class = "form-control", rows = "5" })
+                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Thông số kỹ thuật</label>
+                        @Html.TextAreaFor(model => model.Specification, new { @class = "form-control", rows = "5" })
+                        @Html.ValidationMessageFor(model => model.Specification, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Hình ảnh sản phẩm <span class="text-danger">*</span></label>
+                        <input type="file" name="imageFiles" id="imageFiles" multiple class="form-control-file" accept="image/*" />
+                        <small class="form-text text-muted">Có thể chọn nhiều ảnh cùng lúc. Ảnh đầu tiên sẽ là ảnh chính.</small>
+                        <div class="text-danger" id="imageValidationMessage"></div>
+                    </div>
+
+                    <div id="imagePreview" class="mt-3 row">
+                        <!-- Preview ảnh sẽ được hiển thị ở đây -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group mt-4">
+                <button type="submit" class="btn btn-primary" id="submitButton">Thêm sản phẩm</button>
+                @Html.ActionLink("Trở về", "Index", null, new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function() {
+            // Xử lý preview ảnh
+            $("#imageFiles").change(function() {
+                var preview = $("#imagePreview");
+                preview.empty();
+                
+                if (this.files && this.files.length > 0) {
+                    $.each(this.files, function(index, file) {
+                        var col = $("<div>").addClass("col-6 mb-2");
+                        var img = $("<img>").addClass("img-thumbnail").css({
+                            "max-width": "150px",
+                            "max-height": "150px"
+                        });
+                        
+                        var reader = new FileReader();
+                        reader.onload = function(e) {
+                            img.attr("src", e.target.result);
+                        }
+                        reader.readAsDataURL(file);
+                        
+                        if (index === 0) {
+                            var badge = $("<span>").addClass("badge badge-primary ml-1").text("Ảnh chính");
+                            col.append(badge);
+                        }
+                        
+                        col.append(img);
+                        preview.append(col);
+                    });
+                }
+            });
+
+            // Validation form
+            $("#addProductForm").validate({
+                rules: {
+                    Name: "required",
+                    Price: {
+                        required: true,
+                        min: 0
+                    },
+                    Quantity: {
+                        required: true,
+                        min: 0
+                    },
+                    BrandID: "required",
+                    CategoryID: "required",
+                    imageFiles: "required"
+                },
+                messages: {
+                    Name: "Vui lòng nhập tên sản phẩm",
+                    Price: {
+                        required: "Vui lòng nhập giá sản phẩm",
+                        min: "Giá sản phẩm phải lớn hơn hoặc bằng 0"
+                    },
+                    Quantity: {
+                        required: "Vui lòng nhập số lượng",
+                        min: "Số lượng phải lớn hơn hoặc bằng 0"
+                    },
+                    BrandID: "Vui lòng chọn thương hiệu",
+                    CategoryID: "Vui lòng chọn danh mục",
+                    imageFiles: "Vui lòng chọn ít nhất một ảnh"
+                },
+                errorElement: "span",
+                errorClass: "text-danger",
+                highlight: function(element, errorClass) {
+                    $(element).addClass("is-invalid");
+                },
+                unhighlight: function(element, errorClass) {
+                    $(element).removeClass("is-invalid");
+                }
+            });
+        });
+    </script>
+}

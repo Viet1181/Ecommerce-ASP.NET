@@ -1,0 +1,82 @@
+@model NguyenQuocViet_2122110285.Models.UserModel
+@{
+    ViewBag.Title = "Đăng ký";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section-content padding-y">
+    <!-- ============================ THÀNH PHẦN ĐĂNG KÝ ================================= -->
+    <div class="card mx-auto" style="max-width:520px; margin-top:40px;">
+        <article class="card-body">
+            <header class="mb-4"><h4 class="card-title">Đăng ký tài khoản</h4></header>
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <!-- Họ và Tên -->
+                <div class="form-row">
+                    <div class="col form-group">
+                        @Html.LabelFor(m => m.FirstName)
+                        @Html.EditorFor(m => m.FirstName, new { htmlAttributes = new { @class = "form-control", @placeholder = "Họ" } })
+                        @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col form-group">
+                        @Html.LabelFor(m => m.LastName)
+                        @Html.EditorFor(m => m.LastName, new { htmlAttributes = new { @class = "form-control", @placeholder = "Tên" } })
+                        @Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email)
+                    @Html.EditorFor(m => m.Email, new { htmlAttributes = new { @class = "form-control", @placeholder = "Email" } })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    <small class="form-text text-muted">Chúng tôi sẽ không bao giờ chia sẻ email của bạn với bất kỳ ai khác.</small>
+                </div>
+
+                <!-- Mật khẩu -->
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password)
+                    @Html.EditorFor(m => m.Password, new { htmlAttributes = new { @class = "form-control", @placeholder = "Mật khẩu", type = "password" } })
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                </div>
+
+                <!-- Xác nhận mật khẩu -->
+                <div class="form-group">
+                    @Html.LabelFor(m => m.ConfirmPassword)
+                    @Html.EditorFor(m => m.ConfirmPassword, new { htmlAttributes = new { @class = "form-control", @placeholder = "Xác nhận mật khẩu", type = "password" } })
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                </div>
+
+                <!-- Đồng ý điều khoản -->
+                <div class="form-group">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" required>
+                        <div class="custom-control-label"> Tôi đồng ý với <a href="#">điều khoản và điều kiện</a> </div>
+                    </label>
+                </div>
+
+                if (ViewBag.error != null)
+                {
+                    <div class="alert alert-danger">
+                        @ViewBag.error
+                    </div>
+                }
+
+                <!-- Nút đăng ký -->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">Đăng ký</button>
+                </div>
+            }
+        </article>
+    </div>
+
+    <p class="text-center mt-4">Đã có tài khoản? <a href="@Url.Action("Login", "Home")">Đăng nhập</a></p>
+    <br><br>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

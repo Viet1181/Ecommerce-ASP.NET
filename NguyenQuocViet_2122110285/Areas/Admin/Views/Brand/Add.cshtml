@@ -1,0 +1,116 @@
+@model NguyenQuocViet_2122110285.Context.Brand
+
+@{
+    ViewBag.Title = "Thêm thương hiệu";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Thêm thương hiệu mới</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+@using (Html.BeginForm("Add", "Brand", FormMethod.Post, new { enctype = "multipart/form-data", id = "addBrandForm" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group">
+                        <label>Tên thương hiệu <span class="text-danger">*</span></label>
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mô tả</label>
+                        @Html.TextAreaFor(model => model.Description, new { @class = "form-control", rows = "5" })
+                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <div class="custom-control custom-switch">
+                            @Html.CheckBoxFor(model => model.Status, new { @class = "custom-control-input" })
+                            <label class="custom-control-label" for="Status">Hoạt động</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Logo <span class="text-danger">*</span></label>
+                        <input type="file" name="ImageFile" id="ImageFile" class="form-control-file" accept="image/*" />
+                        <small class="form-text text-muted">Chọn logo cho thương hiệu</small>
+                        <div class="text-danger" id="imageValidationMessage"></div>
+                    </div>
+
+                    <div id="imagePreview" class="mt-3">
+                        <!-- Preview ảnh sẽ được hiển thị ở đây -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group mt-4">
+                <button type="submit" class="btn btn-primary" id="submitButton">Thêm thương hiệu</button>
+                @Html.ActionLink("Trở về", "Index", null, new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function() {
+            // Xử lý preview ảnh
+            $("#ImageFile").change(function() {
+                var preview = $("#imagePreview");
+                preview.empty();
+                
+                if (this.files && this.files[0]) {
+                    var img = $("<img>").addClass("img-thumbnail").css({
+                        "max-width": "100%",
+                        "max-height": "200px"
+                    });
+                    
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        img.attr("src", e.target.result);
+                    }
+                    reader.readAsDataURL(this.files[0]);
+                    
+                    preview.append(img);
+                }
+            });
+
+            // Validation form
+            $("#addBrandForm").validate({
+                rules: {
+                    Name: "required",
+                    ImageFile: "required"
+                },
+                messages: {
+                    Name: "Vui lòng nhập tên thương hiệu",
+                    ImageFile: "Vui lòng chọn logo"
+                },
+                errorElement: "span",
+                errorClass: "text-danger",
+                highlight: function(element, errorClass) {
+                    $(element).addClass("is-invalid");
+                },
+                unhighlight: function(element, errorClass) {
+                    $(element).removeClass("is-invalid");
+                }
+            });
+        });
+    </script>
+}

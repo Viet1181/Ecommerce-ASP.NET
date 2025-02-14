@@ -1,0 +1,170 @@
+﻿@model NguyenQuocViet_2122110285.Models.OrderModel
+@{
+    ViewBag.Title = "Chi tiết đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section-content padding-y">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h4>Đơn hàng #@Model.OrderCode</h4>
+                            </div>
+                            <div class="col text-right">
+                                @switch (Model.Status)
+                                {
+                                    case "Pending":
+                                        <span class="badge badge-warning">Chờ xử lý</span>
+                                        break;
+                                    case "Confirmed":
+                                        <span class="badge badge-info">Đã xác nhận</span>
+                                        break;
+                                    case "Shipping":
+                                        <span class="badge badge-primary">Đang giao</span>
+                                        break;
+                                    case "Completed":
+                                        <span class="badge badge-success">Hoàn thành</span>
+                                        break;
+                                    case "Cancelled":
+                                        <span class="badge badge-danger">Đã hủy</span>
+                                        break;
+                                    default:
+                                        <span class="badge badge-secondary">@Model.Status</span>
+                                        break;
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="track">
+                            <div class="step @(Model.Status != "Pending" ? "active" : "")">
+                                <span class="icon"> <i class="fa fa-check"></i> </span>
+                                <span class="text">Đặt hàng</span>
+                            </div>
+                            <div class="step @(Model.Status == "Confirmed" || Model.Status == "Shipping" || Model.Status == "Completed" ? "active" : "")">
+                                <span class="icon"> <i class="fa fa-user"></i> </span>
+                                <span class="text">Xác nhận</span>
+                            </div>
+                            <div class="step @(Model.Status == "Shipping" || Model.Status == "Completed" ? "active" : "")">
+                                <span class="icon"> <i class="fa fa-truck"></i> </span>
+                                <span class="text">Đang giao</span>
+                            </div>
+                            <div class="step @(Model.Status == "Completed" ? "active" : "")">
+                                <span class="icon"> <i class="fa fa-box"></i> </span>
+                                <span class="text">Hoàn thành</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <ul class="row">
+                            @foreach (var item in Model.OrderDetails)
+                            {
+                                <li class="col-md-12">
+                                    <figure class="itemside mb-3">
+                                        <div class="aside"><img src="~/Content/images/items/@item.ProductImage" class="img-sm border"></div>
+                                        <figcaption class="info align-self-center">
+                                            <p class="title">@item.ProductName</p>
+                                            <span class="text-muted">@item.Quantity x @item.Price.ToString("N0") đ = @item.Total.ToString("N0") đ</span>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Thông tin giao hàng</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <strong>Người nhận:</strong> @Model.ShippingName<br>
+                            <strong>Số điện thoại:</strong> @Model.ShippingPhone<br>
+                            <strong>Email:</strong> @Model.ShippingEmail<br>
+                            <strong>Địa chỉ:</strong> @Model.ShippingAddress
+                        </p>
+                        @if (!string.IsNullOrEmpty(Model.Note))
+                        {
+                            <p>
+                                <strong>Ghi chú:</strong><br>
+                                @Model.Note
+                            </p>
+                        }
+                        <hr>
+                        <p>
+                            <strong>Phương thức thanh toán:</strong><br>
+                            @(Model.PaymentMethod == "COD" ? "Thanh toán khi nhận hàng (COD)" : "Chuyển khoản ngân hàng")
+                        </p>
+                        <hr>
+                        <dl class="dlist-align">
+                            <dt>Tổng tiền:</dt>
+                            <dd class="text-right h5"><strong>@Model.TotalAmount.ToString("N0") đ</strong></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .track {
+        position: relative;
+        background-color: #ddd;
+        height: 7px;
+        display: flex;
+        margin-bottom: 60px;
+        margin-top: 50px
+    }
+
+        .track .step {
+            flex-grow: 1;
+            width: 25%;
+            margin-top: -18px;
+            text-align: center;
+            position: relative
+        }
+
+            .track .step.active:before {
+                background: #FF5722
+            }
+
+            .track .step::before {
+                height: 7px;
+                position: absolute;
+                content: "";
+                width: 100%;
+                left: 0;
+                top: 18px
+            }
+
+            .track .step.active .icon {
+                background: #FF5722;
+                color: #fff
+            }
+
+        .track .icon {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            position: relative;
+            border-radius: 100%;
+            background: #ddd
+        }
+
+        .track .step.active .text {
+            font-weight: 400;
+            color: #000
+        }
+
+        .track .text {
+            display: block;
+            margin-top: 7px
+        }
+</style>

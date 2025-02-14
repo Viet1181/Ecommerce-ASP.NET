@@ -1,0 +1,92 @@
+@model NguyenQuocViet_2122110285.Context.Brand
+@{
+    ViewBag.Title = "Xóa thương hiệu";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Xóa thương hiệu</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="~/Admin">Trang chủ</a></li>
+                        <li class="breadcrumb-item"><a href="@Url.Action("Index")">Danh sách thương hiệu</a></li>
+                        <li class="breadcrumb-item active">Xóa thương hiệu</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card card-danger">
+                <div class="card-header">
+                    <h3 class="card-title">Xác nhận xóa thương hiệu này?</h3>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-2">Tên thương hiệu:</dt>
+                        <dd class="col-sm-10">@Model.Name</dd>
+
+                        <dt class="col-sm-2">Đường dẫn tĩnh:</dt>
+                        <dd class="col-sm-10">@Model.Slug</dd>
+
+                        <dt class="col-sm-2">Mô tả:</dt>
+                        <dd class="col-sm-10">@Model.Description</dd>
+
+                        <dt class="col-sm-2">Logo:</dt>
+                        <dd class="col-sm-10">
+                            @if (!string.IsNullOrEmpty(Model.Logo))
+                            {
+                                <img src="@Model.Logo" alt="@Model.Name" style="max-width: 200px;" />
+                            }
+                        </dd>
+
+                        <dt class="col-sm-2">Thứ tự hiển thị:</dt>
+                        <dd class="col-sm-10">@(Model.DisplayOrder.HasValue ? Model.DisplayOrder.Value : 0)</dd>
+
+                        <dt class="col-sm-2">Trạng thái:</dt>
+                        <dd class="col-sm-10">
+                            @if (Model.Status)
+                            {
+                                <span class="badge badge-success">Hoạt động</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-danger">Vô hiệu hóa</span>
+                            }
+                        </dd>
+
+                        <dt class="col-sm-2">Ngày tạo:</dt>
+                        <dd class="col-sm-10">@Model.CreatedDate.ToString("dd/MM/yyyy")</dd>
+
+                        <dt class="col-sm-2">Ngày sửa:</dt>
+                        <dd class="col-sm-10">
+                            @if (Model.ModifiedDate.HasValue)
+                            {
+                                @Model.ModifiedDate.Value.ToString("dd/MM/yyyy")
+                            }
+                        </dd>
+                    </dl>
+                </div>
+                <div class="card-footer">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> Xác nhận xóa
+                        </button>
+                        <a href="@Url.Action("Index")" class="btn btn-default">
+                            <i class="fas fa-arrow-left"></i> Trở về
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,117 @@
+﻿@model NguyenQuocViet_2122110285.Models.OrderModel
+@{
+    ViewBag.Title = "Thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section-content padding-y">
+    <div class="container">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="row">
+                <main class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Thông tin giao hàng</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    @Html.LabelFor(m => m.ShippingName)
+                                    @Html.TextBoxFor(m => m.ShippingName, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.ShippingName, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    @Html.LabelFor(m => m.ShippingPhone)
+                                    @Html.TextBoxFor(m => m.ShippingPhone, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.ShippingPhone, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.ShippingEmail)
+                                @Html.TextBoxFor(m => m.ShippingEmail, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.ShippingEmail, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.ShippingAddress)
+                                @Html.TextBoxFor(m => m.ShippingAddress, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.ShippingAddress, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Note)
+                                @Html.TextAreaFor(m => m.Note, new { @class = "form-control", rows = "3" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.PaymentMethod)
+                                <div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        @Html.RadioButtonFor(m => m.PaymentMethod, "COD", new { @class = "custom-control-input", id = "payment1", @checked = "checked" })
+                                        <label class="custom-control-label" for="payment1">Thanh toán khi nhận hàng (COD)</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        @Html.RadioButtonFor(m => m.PaymentMethod, "BankTransfer", new { @class = "custom-control-input", id = "payment2" })
+                                        <label class="custom-control-label" for="payment2">Chuyển khoản ngân hàng</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <aside class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Đơn hàng của bạn</h4>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-borderless table-shopping-cart">
+                                <thead class="text-muted">
+                                    <tr class="small text-uppercase">
+                                        <th scope="col">Sản phẩm</th>
+                                        <th scope="col" width="120">Tổng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.OrderDetails)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <figure class="itemside align-items-center">
+                                                    <div class="aside"><img src="~/Content/images/items/@item.ProductImage" class="img-sm"></div>
+                                                    <figcaption class="info">
+                                                        <a href="@Url.Action("ProductDetail", "Product", new { id = item.ProductId })" class="title text-dark">@item.ProductName</a>
+                                                        <p class="text-muted small">@item.Quantity x @item.Price.ToString("N0") đ</p>
+                                                    </figcaption>
+                                                </figure>
+                                            </td>
+                                            <td>
+                                                <div class="price-wrap">
+                                                    <var class="price">@item.Total.ToString("N0") đ</var>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <hr>
+                            <dl class="dlist-align">
+                                <dt>Tổng tiền:</dt>
+                                <dd class="text-right h5"><strong>@Model.TotalAmount.ToString("N0") đ</strong></dd>
+                                @Html.HiddenFor(m => m.TotalAmount)
+                            </dl>
+                            <hr>
+                            <button type="submit" class="btn btn-primary btn-block"> Đặt hàng </button>
+                            <a href="@Url.Action("ShoppingCart", "Cart")" class="btn btn-light btn-block">Quay lại giỏ hàng</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        }
+    </div>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

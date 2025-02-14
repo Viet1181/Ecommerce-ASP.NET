@@ -1,0 +1,133 @@
+@model NguyenQuocViet_2122110285.Context.Order
+
+@{
+    ViewBag.Title = "Chi tiết đơn hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Chi tiết đơn hàng #@Model.OrderID</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Thông tin đơn hàng</h3>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">Mã đơn hàng:</dt>
+                        <dd class="col-sm-8">#@Model.OrderID</dd>
+
+                        <dt class="col-sm-4">Ngày đặt:</dt>
+                        @* <dd class="col-sm-8">@Model.CreatedDate.ToString("dd/MM/yyyy HH:mm")</dd> *@
+
+                        <dt class="col-sm-4">Trạng thái:</dt>
+                        <dd class="col-sm-8">
+                            @switch (Model.Status.ToString())
+                            {
+                                case "1":
+                                    <span class="badge badge-info">Chờ xác nhận</span>
+                                    break;
+                                case "2":
+                                    <span class="badge badge-primary">Đã xác nhận</span>
+                                    break;
+                                case "3":
+                                    <span class="badge badge-warning">Đang giao hàng</span>
+                                    break;
+                                case "4":
+                                    <span class="badge badge-success">Đã giao hàng</span>
+                                    break;
+                                case "5":
+                                    <span class="badge badge-danger">Đã hủy</span>
+                                    break;
+                            }
+                        </dd>
+
+                        <dt class="col-sm-4">Tổng tiền:</dt>
+                        <dd class="col-sm-8">@string.Format("{0:N0}đ", Model.TotalAmount)</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Thông tin khách hàng</h3>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">Họ tên:</dt>
+                        <dd class="col-sm-8">@Model.User.FullName</dd>
+
+                        <dt class="col-sm-4">Email:</dt>
+                        <dd class="col-sm-8">@Model.User.Email</dd>
+
+                        <dt class="col-sm-4">Số điện thoại:</dt>
+                        <dd class="col-sm-8">@Model.User.Phone</dd>
+
+                        <dt class="col-sm-4">Địa chỉ:</dt>
+                        <dd class="col-sm-8">@Model.User.Address</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Chi tiết sản phẩm</h3>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Sản phẩm</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.OrderDetails)
+                            {
+                                <tr>
+                                    <td>@item.Product.Name</td>
+                                    <td>@string.Format("{0:N0}đ", item.Price)</td>
+                                    <td>@item.Quantity</td>
+                                    <td>@string.Format("{0:N0}đ", item.Price * item.Quantity)</td>
+                                </tr>
+                            }
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" class="text-right"><strong>Tổng cộng:</strong></td>
+                                <td><strong>@string.Format("{0:N0}đ", Model.TotalAmount)</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card-footer">
+                @Html.ActionLink("Cập nhật", "Edit", new { id = Model.OrderID }, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+</div>

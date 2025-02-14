@@ -1,0 +1,79 @@
+@model NguyenQuocViet_2122110285.Context.Order
+
+@{
+    ViewBag.Title = "Cập nhật đơn hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Cập nhật đơn hàng #@Model.OrderID</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Thông tin đơn hàng</h3>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">Mã đơn hàng:</dt>
+                        <dd class="col-sm-8">#@Model.OrderID</dd>
+
+                        <dt class="col-sm-4">Khách hàng:</dt>
+                        <dd class="col-sm-8">@Model.User.FullName</dd>
+
+                        @* <dt class="col-sm-4">Ngày đặt:</dt>
+                        <dd class="col-sm-8">@Model.CreatedDate.ToString("dd/MM/yyyy HH:mm")</dd> *@
+
+                        <dt class="col-sm-4">Tổng tiền:</dt>
+                        <dd class="col-sm-8">@string.Format("{0:N0}đ", Model.TotalAmount)</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(model => model.OrderID)
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Cập nhật trạng thái</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Trạng thái đơn hàng</label>
+                            @Html.DropDownListFor(model => model.Status, new List<SelectListItem>
+                            {
+                                new SelectListItem { Text = "Chờ xác nhận", Value = "1" },
+                                new SelectListItem { Text = "Đã xác nhận", Value = "2" },
+                                new SelectListItem { Text = "Đang giao hàng", Value = "3" },
+                                new SelectListItem { Text = "Đã giao hàng", Value = "4" },
+                                new SelectListItem { Text = "Đã hủy", Value = "5" }
+                            }, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                        @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-secondary" })
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

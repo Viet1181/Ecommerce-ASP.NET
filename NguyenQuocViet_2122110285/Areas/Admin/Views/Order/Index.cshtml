@@ -1,0 +1,75 @@
+@model IEnumerable<NguyenQuocViet_2122110285.Context.Order>
+
+@{
+    ViewBag.Title = "Quản lý đơn hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Quản lý đơn hàng</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Mã đơn hàng</th>
+                                <th>Khách hàng</th>
+                                <th>Tổng tiền</th>
+                                <th>Ngày đặt</th>
+                                <th>Trạng thái</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.OrderID</td>
+                                    <td>@item.User.FullName</td>
+                                    <td>@string.Format("{0:N0}đ", item.TotalAmount)</td>
+                                    @* <td>@item.CreatedDate.ToString("dd/MM/yyyy HH:mm")</td> *@
+                                    <td>
+                                        @switch (item.Status.ToString())
+                                        {
+                                            case "1":
+                                                <span class="badge badge-info">Chờ xác nhận</span>
+                                                break;
+                                            case "2":
+                                                <span class="badge badge-primary">Đã xác nhận</span>
+                                                break;
+                                            case "3":
+                                                <span class="badge badge-warning">Đang giao hàng</span>
+                                                break;
+                                            case "4":
+                                                <span class="badge badge-success">Đã giao hàng</span>
+                                                break;
+                                            case "5":
+                                                <span class="badge badge-danger">Đã hủy</span>
+                                                break;
+                                        }
+                                    </td>
+                                    <td>
+                                        @Html.ActionLink("Chi tiết", "Detail", new { id = item.OrderID }, new { @class = "btn btn-info btn-sm" })
+                                        @Html.ActionLink("Cập nhật", "Edit", new { id = item.OrderID }, new { @class = "btn btn-primary btn-sm" })
+                                        @Html.ActionLink("Xóa", "Delete", new { id = item.OrderID }, new { @class = "btn btn-danger btn-sm" })
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

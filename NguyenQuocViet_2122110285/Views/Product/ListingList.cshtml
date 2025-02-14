@@ -1,0 +1,261 @@
+@model IEnumerable<NguyenQuocViet_2122110285.Context.Product>
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section-content padding-y">
+    <div class="container">
+        <div class="card mb-3">
+            <div class="card-body">
+                <ol class="breadcrumb float-left">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+                    @if (ViewBag.CurrentCategory != null)
+                    {
+                        <li class="breadcrumb-item active">@ViewBag.CurrentCategory.Name</li>
+                    }
+                    else
+                    {
+                        <li class="breadcrumb-item active">Tất cả sản phẩm</li>
+                    }
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <aside class="col-md-2">
+                <article class="filter-group">
+                    <h6 class="title">
+                        <a href="#" class="dropdown-toggle" data-toggle="collapse" data-target="#collapse_1">Danh mục sản phẩm</a>
+                    </h6>
+                    <div class="filter-content collapse show" id="collapse_1">
+                        <div class="inner">
+                            <ul class="list-menu">
+                                <li>
+                                    <a href="@Url.Action("ListingList", new { categoryId = "", brandId = ViewBag.CurrentBrand?.BrandID })" 
+                                       class="@(ViewBag.CurrentCategory == null ? "active font-weight-bold text-primary" : "")">
+                                        Tất cả
+                                    </a>
+                                </li>
+                                @foreach (var category in ViewBag.Categories)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("ListingList", new { categoryId = category.CategoryID, brandId = ViewBag.CurrentBrand?.BrandID })"
+                                           class="@(ViewBag.CurrentCategory?.CategoryID == category.CategoryID ? "active font-weight-bold text-primary" : "")">
+                                            @category.Name
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="filter-group">
+                    <h6 class="title">
+                        <a href="#" class="dropdown-toggle" data-toggle="collapse" data-target="#collapse_2">Thương hiệu</a>
+                    </h6>
+                    <div class="filter-content collapse show" id="collapse_2">
+                        <div class="inner">
+                            <ul class="list-menu">
+                                <li>
+                                    <a href="@Url.Action("ListingList", new { brandId = "", categoryId = ViewBag.CurrentCategory?.CategoryID })" 
+                                       class="@(ViewBag.CurrentBrand == null ? "active font-weight-bold text-primary" : "")">
+                                        Tất cả
+                                    </a>
+                                </li>
+                                @foreach (var brand in ViewBag.Brands)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("ListingList", new { brandId = brand.BrandID, categoryId = ViewBag.CurrentCategory?.CategoryID })"
+                                           class="@(ViewBag.CurrentBrand?.BrandID == brand.BrandID ? "active font-weight-bold text-primary" : "")">
+                                            @brand.Name
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="filter-group">
+                    <h6 class="title">
+                        <a href="#" class="dropdown-toggle" data-toggle="collapse" data-target="#collapse_3">Lọc theo giá</a>
+                    </h6>
+                    <div class="filter-content collapse show" id="collapse_3">
+                        <div class="inner">
+                            @using (Html.BeginForm("ListingList", "Product", FormMethod.Get))
+                            {
+                                if (ViewBag.CurrentCategory != null)
+                                {
+                                    <input type="hidden" name="categoryId" value="@ViewBag.CurrentCategory.CategoryID" />
+                                }
+                                if (ViewBag.CurrentBrand != null)
+                                {
+                                    <input type="hidden" name="brandId" value="@ViewBag.CurrentBrand.BrandID" />
+                                }
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label>Từ</label>
+                                        <input class="form-control" placeholder="0" type="number" name="minPrice" value="@ViewBag.CurrentMinPrice">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label>Đến</label>
+                                        <input class="form-control" placeholder="1.000.000" type="number" name="maxPrice" value="@ViewBag.CurrentMaxPrice">
+                                    </div>
+                                </div>
+                                <button class="btn btn-block btn-primary" type="submit">Áp dụng</button>
+                            }
+                        </div>
+                    </div>
+                </article>
+            </aside>
+
+            <main class="col-md-10">
+                <header class="mb-3">
+                    <div class="form-inline">
+                        <strong class="mr-md-auto">@Model.Count() sản phẩm</strong>
+                        <select class="mr-2 form-control" onchange="window.location.href=this.value">
+                            <option value="@Url.Action("ListingList", new { categoryId = ViewBag.CurrentCategory?.CategoryID, brandId = ViewBag.CurrentBrand?.BrandID, sortOrder = "" })"
+                                    @(ViewBag.CurrentSortOrder == null ? "selected" : "")>
+                                Mới nhất
+                            </option>
+                            <option value="@Url.Action("ListingList", new { categoryId = ViewBag.CurrentCategory?.CategoryID, brandId = ViewBag.CurrentBrand?.BrandID, sortOrder = "price_asc" })"
+                                    @(ViewBag.CurrentSortOrder == "price_asc" ? "selected" : "")>
+                                Giá tăng dần
+                            </option>
+                            <option value="@Url.Action("ListingList", new { categoryId = ViewBag.CurrentCategory?.CategoryID, brandId = ViewBag.CurrentBrand?.BrandID, sortOrder = "price_desc" })"
+                                    @(ViewBag.CurrentSortOrder == "price_desc" ? "selected" : "")>
+                                Giá giảm dần
+                            </option>
+                            <option value="@Url.Action("ListingList", new { categoryId = ViewBag.CurrentCategory?.CategoryID, brandId = ViewBag.CurrentBrand?.BrandID, sortOrder = "name_asc" })"
+                                    @(ViewBag.CurrentSortOrder == "name_asc" ? "selected" : "")>
+                                Tên A-Z
+                            </option>
+                            <option value="@Url.Action("ListingList", new { categoryId = ViewBag.CurrentCategory?.CategoryID, brandId = ViewBag.CurrentBrand?.BrandID, sortOrder = "name_desc" })"
+                                    @(ViewBag.CurrentSortOrder == "name_desc" ? "selected" : "")>
+                                Tên Z-A
+                            </option>
+                        </select>
+                        <div class="btn-group">
+                            <a href="@Url.Action("ListingList", new { categoryId = ViewBag.CurrentCategory?.CategoryID, brandId = ViewBag.CurrentBrand?.BrandID })"
+                               class="btn btn-light active" data-toggle="tooltip" title="Xem dạng danh sách">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <a href="@Url.Action("ListingGrid", new { categoryId = ViewBag.CurrentCategory?.CategoryID, brandId = ViewBag.CurrentBrand?.BrandID })"
+                               class="btn btn-light" data-toggle="tooltip" title="Xem dạng lưới">
+                                <i class="fa fa-th"></i>
+                            </a>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-md-12 mb-4">
+                            <div class="card card-product-list">
+                                <div class="row no-gutters">
+                                    <aside class="col-md-3">
+                                        <a href="@Url.Action("ProductDetail", new { id = item.ProductID })" class="img-wrap">
+                                            @if (item.CreatedDate.HasValue && (DateTime.Now - item.CreatedDate.Value).TotalDays <= 7)
+                                            {
+                                                <span class="badge badge-danger">Mới</span>
+                                            }
+                                            @{
+                                                var firstImage = item.ProductImages.FirstOrDefault();
+                                                var imagePath = firstImage != null ? firstImage.ImageURL : "default.jpg";
+                                            }
+                                            <img src="~/Content/images/items/@imagePath">
+                                        </a>
+                                    </aside>
+                                    <div class="col-md-6">
+                                        <div class="info-main">
+                                            <a href="@Url.Action("ProductDetail", new { id = item.ProductID })" class="h5 title">@item.Name</a>
+                                            <div class="rating-wrap mb-2">
+                                                <span class="tag">@item.Category.Name</span>
+                                            </div>
+                                            <p>@item.Description</p>
+                                        </div>
+                                    </div>
+                                    <aside class="col-md-3">
+                                        <div class="info-aside">
+                                            <div class="price-wrap">
+                                                <span class="price h5">@item.Price.ToString("N0") đ</span>
+                                            </div>
+                                            <br>
+                                            <a href="@Url.Action("AddToCart", "Cart", new { id = item.ProductID })" class="btn btn-primary btn-block">
+                                                <i class="fa fa-shopping-cart"></i>
+                                                <span class="text">Thêm vào giỏ</span>
+                                            </a>
+                                            <a href="@Url.Action("ProductDetail", new { id = item.ProductID })" class="btn btn-light btn-block">
+                                                <i class="fa fa-eye"></i>
+                                                <span class="text">Xem chi tiết</span>
+                                            </a>
+                                        </div>
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Phân trang -->
+    @if (ViewBag.TotalPages > 1)
+    {
+        <nav class="mt-4">
+            <ul class="pagination justify-content-center">
+                @if (ViewBag.CurrentPage > 1)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("ListingList", new { 
+                            categoryId = ViewBag.CurrentCategory?.CategoryID, 
+                            brandId = ViewBag.CurrentBrand?.BrandID,
+                            sortOrder = ViewBag.CurrentSortOrder,
+                            minPrice = ViewBag.CurrentMinPrice,
+                            maxPrice = ViewBag.CurrentMaxPrice,
+                            page = ViewBag.CurrentPage - 1
+                        })">
+                            &laquo;
+                        </a>
+                    </li>
+                }
+
+                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                        <a class="page-link" href="@Url.Action("ListingList", new { 
+                            categoryId = ViewBag.CurrentCategory?.CategoryID, 
+                            brandId = ViewBag.CurrentBrand?.BrandID,
+                            sortOrder = ViewBag.CurrentSortOrder,
+                            minPrice = ViewBag.CurrentMinPrice,
+                            maxPrice = ViewBag.CurrentMaxPrice,
+                            page = i
+                        })">
+                            @i
+                        </a>
+                    </li>
+                }
+
+                @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("ListingList", new { 
+                            categoryId = ViewBag.CurrentCategory?.CategoryID, 
+                            brandId = ViewBag.CurrentBrand?.BrandID,
+                            sortOrder = ViewBag.CurrentSortOrder,
+                            minPrice = ViewBag.CurrentMinPrice,
+                            maxPrice = ViewBag.CurrentMaxPrice,
+                            page = ViewBag.CurrentPage + 1
+                        })">
+                            &raquo;
+                        </a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
+</section>

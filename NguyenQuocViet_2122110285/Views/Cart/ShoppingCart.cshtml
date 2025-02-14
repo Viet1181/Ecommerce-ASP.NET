@@ -1,6 +1,8 @@
-﻿
+@model List<NguyenQuocViet_2122110285.Models.CartItemModel>
 @{
-    ViewBag.Title = "ShoppingCart";
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    decimal total = 0;
 }
 
 <!-- ========================= SECTION CONTENT ========================= -->
@@ -14,148 +16,86 @@
                     <table class="table table-borderless table-shopping-cart">
                         <thead class="text-muted">
                             <tr class="small text-uppercase">
-                                <th scope="col">Product</th>
-                                <th scope="col" width="120">Quantity</th>
-                                <th scope="col" width="120">Price</th>
+                                <th scope="col">Sản phẩm</th>
+                                <th scope="col" width="120">Số lượng</th>
+                                <th scope="col" width="120">Giá</th>
                                 <th scope="col" class="text-right" width="200"> </th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>
-                                    <figure class="itemside">
-                                        <div class="aside"><img src="~/Content/images/items/1.jpg" class="img-sm"></div>
-                                        <figcaption class="info">
-                                            <a href="#" class="title text-dark">Some name of item goes here nice</a>
-                                            <p class="text-muted small">Size: XL, Color: blue, <br> Brand: Gucci</p>
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <select class="form-control">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <div class="price-wrap">
-                                        <var class="price">$1156.00</var>
-                                        <small class="text-muted"> $315.20 each </small>
-                                    </div> <!-- price-wrap .// -->
-                                </td>
-                                <td class="text-right">
-                                    <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
-                                    <a href="" class="btn btn-light"> Remove</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <figure class="itemside">
-                                        <div class="aside"><img src="~/Content/images/items/2.jpg" class="img-sm"></div>
-                                        <figcaption class="info">
-                                            <a href="#" class="title text-dark">Product name  goes here nice</a>
-                                            <p class="text-muted small">Size: XL, Color: blue, <br> Brand: Gucci</p>
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <select class="form-control">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <div class="price-wrap">
-                                        <var class="price">$149.97</var>
-                                        <small class="text-muted"> $75.00 each </small>
-                                    </div> <!-- price-wrap .// -->
-                                </td>
-                                <td class="text-right">
-                                    <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
-                                    <a href="" class="btn btn-light btn-round"> Remove</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <figure class="itemside">
-                                        <div class="aside"><img src="~/Content/images/items/3.jpg" class="img-sm"></div>
-                                        <figcaption class="info">
-                                            <a href="#" class="title text-dark">Another name of some product goes just here as a demo text </a>
-                                            <p class="small text-muted">Size: XL, Color: blue,  Brand: Tissot</p>
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <select class="form-control">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <div class="price-wrap">
-                                        <var class="price">$98.00</var>
-                                        <small class="text-muted"> $578.00 each</small>
-                                    </div> <!-- price-wrap .// -->
-                                </td>
-                                <td class="text-right">
-                                    <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
-                                    <a href="" class="btn btn-light btn-round"> Remove</a>
-                                </td>
-                            </tr>
+                            @if (Model != null && Model.Any())
+                            {
+                                foreach (var item in Model)
+                                {
+                                    total += item.Price * item.Quantity;
+                                    <tr data-cart-id="@item.CartId">
+                                        <td>
+                                            <figure class="itemside">
+                                                <div class="aside">
+                                                    <img src="~/Content/images/items/@item.ImageUrl" class="img-sm">
+                                                </div>
+                                                <figcaption class="info">
+                                                    <a href="@Url.Action("ProductDetail", "Product", new { id = item.ProductId })" class="title text-dark">@item.ProductName</a>
+                                                </figcaption>
+                                            </figure>
+                                        </td>
+                                        <td>
+                                            <div class="input-group input-spinner">
+                                                <div class="input-group-prepend">
+                                                    <button class="btn btn-light btn-minus" type="button" data-cart-id="@item.CartId"> − </button>
+                                                </div>
+                                                <input type="text" class="form-control text-center quantity-input" value="@item.Quantity" readonly>
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-light btn-plus" type="button" data-cart-id="@item.CartId"> + </button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="price-wrap">
+                                                <var class="price">@item.Price.ToString("N0") đ</var>
+                                            </div>
+                                        </td>
+                                        <td class="text-right">
+                                            <button class="btn btn-light btn-remove" data-cart-id="@item.CartId"> Xóa</button>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4" class="text-center">Giỏ hàng trống</td>
+                                </tr>
+                            }
                         </tbody>
                     </table>
 
                     <div class="card-body border-top">
-                        <a href="#" class="btn btn-primary float-md-right"> Make Purchase <i class="fa fa-chevron-right"></i> </a>
-                        <a href="#" class="btn btn-light"> <i class="fa fa-chevron-left"></i> Continue shopping </a>
+                        <a href="@Url.Action("Checkout", "Order")" class="btn btn-primary float-md-right @(Model == null || !Model.Any() ? "disabled" : "")"> 
+                            Thanh toán <i class="fa fa-chevron-right"></i> 
+                        </a>
+                        <a href="@Url.Action("Index", "Home")" class="btn btn-light"> 
+                            <i class="fa fa-chevron-left"></i> Tiếp tục mua sắm 
+                        </a>
                     </div>
                 </div> <!-- card.// -->
 
                 <div class="alert alert-success mt-3">
-                    <p class="icontext"><i class="icon text-success fa fa-truck"></i> Free Delivery within 1-2 weeks</p>
+                    <p class="icontext"><i class="icon text-success fa fa-truck"></i> Giao hàng miễn phí trong vòng 1-2 tuần</p>
                 </div>
 
             </main> <!-- col.// -->
             <aside class="col-md-3">
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <form>
-                            <div class="form-group">
-                                <label>Have coupon?</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" name="" placeholder="Coupon code">
-                                    <span class="input-group-append">
-                                        <button class="btn btn-primary">Apply</button>
-                                    </span>
-                                </div>
-                            </div>
-                        </form>
-                    </div> <!-- card-body.// -->
-                </div>  <!-- card .// -->
                 <div class="card">
                     <div class="card-body">
                         <dl class="dlist-align">
-                            <dt>Total price:</dt>
-                            <dd class="text-right">USD 568</dd>
-                        </dl>
-                        <dl class="dlist-align">
-                            <dt>Discount:</dt>
-                            <dd class="text-right">USD 658</dd>
-                        </dl>
-                        <dl class="dlist-align">
-                            <dt>Total:</dt>
-                            <dd class="text-right  h5"><strong>$1,650</strong></dd>
+                            <dt>Tổng tiền:</dt>
+                            <dd class="text-right h5"><strong>@total.ToString("N0") đ</strong></dd>
                         </dl>
                         <hr>
                         <p class="text-center mb-3">
                             <img src="~/Content/images/misc/payments.png" height="26">
                         </p>
-
                     </div> <!-- card-body.// -->
                 </div>  <!-- card .// -->
             </aside> <!-- col.// -->
@@ -164,27 +104,71 @@
     </div> <!-- container .//  -->
 </section>
 <!-- ========================= SECTION CONTENT END// ========================= -->
-<!-- ========================= SECTION  ========================= -->
-<section class="section-name border-top padding-y">
-    <div class="container">
-        <h6>Payment and refund policy</h6>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
 
-    </div><!-- container // -->
-</section>
-<!-- ========================= SECTION  END// ========================= -->
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Tăng số lượng
+            $('.btn-plus').click(function () {
+                var cartId = $(this).data('cart-id');
+                var input = $(this).closest('.input-spinner').find('.quantity-input');
+                var currentValue = parseInt(input.val());
+                var newValue = currentValue + 1;
+                
+                if (newValue <= 10) { // Giới hạn tối đa 10 sản phẩm
+                    updateQuantity(cartId, newValue);
+                }
+            });
+
+            // Giảm số lượng
+            $('.btn-minus').click(function () {
+                var cartId = $(this).data('cart-id');
+                var input = $(this).closest('.input-spinner').find('.quantity-input');
+                var currentValue = parseInt(input.val());
+                var newValue = currentValue - 1;
+                
+                if (newValue >= 1) { // Không cho phép giảm dưới 1
+                    updateQuantity(cartId, newValue);
+                }
+            });
+
+            // Hàm cập nhật số lượng
+            function updateQuantity(cartId, quantity) {
+                $.ajax({
+                    url: '@Url.Action("UpdateQuantity", "Cart")',
+                    type: 'POST',
+                    data: { cartId: cartId, quantity: quantity },
+                    success: function (response) {
+                        if (response.success) {
+                            location.reload(); // Tải lại trang để cập nhật tổng tiền
+                        } else {
+                            alert('Có lỗi xảy ra, vui lòng thử lại!');
+                        }
+                    }
+                });
+            }
+
+            // Xóa sản phẩm
+            $('.btn-remove').click(function () {
+                var cartId = $(this).data('cart-id');
+                if (confirm('Bạn có chắc muốn xóa sản phẩm này khỏi giỏ hàng?')) {
+                    $.ajax({
+                        url: '@Url.Action("RemoveFromCart", "Cart")',
+                        type: 'POST',
+                        data: { cartId: cartId },
+                        success: function (response) {
+                            if (response.success) {
+                                $('tr[data-cart-id="' + cartId + '"]').remove();
+                                if ($('tbody tr').length === 0) {
+                                    location.reload(); // Tải lại trang nếu giỏ hàng trống
+                                }
+                            } else {
+                                alert('Có lỗi xảy ra, vui lòng thử lại!');
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

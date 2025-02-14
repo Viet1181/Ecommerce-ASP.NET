@@ -1,77 +1,261 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\",
+  "WorkspaceRootPath": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|d:\\code\\c# project\\nguyenquocviet_2122110285\\nguyenquocviet_2122110285\\views\\list\\listinglagre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\list\\listinglagre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\category\\categoryall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\category\\categoryall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\list\\listinggrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\list\\listinggrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|d:\\code\\c# project\\nguyenquocviet_2122110285\\nguyenquocviet_2122110285\\views\\cart\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\cart\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|d:\\code\\c# project\\nguyenquocviet_2122110285\\nguyenquocviet_2122110285\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|d:\\code\\c# project\\doan(v1)\\nguyenquocviet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\libary\\xstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\libary\\xstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\category\\categoryall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\category\\categoryall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\brand\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\order\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\order\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\order\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\order\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\product\\listinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\product\\listinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\product\\listinggrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\product\\listinggrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\cart\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\cart\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\order\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\order\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\category\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\category\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\context\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\context\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\nguyenquocviet_2122110285\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D22554-A97C-4765-BF9E-57E568FF356A}|NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285.csproj|solutionrelative:nguyenquocviet_2122110285\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -82,198 +266,691 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\User\\Register.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\User\\Register.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAwwFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T12:42:44.205Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Global.asax.cs",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Global.asax.cs",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Global.asax.cs",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T10:10:37.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListingLagre.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\List\\ListingLagre.cshtml",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\List\\ListingLagre.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\List\\ListingLagre.cshtml",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\List\\ListingLagre.cshtml",
-              "ViewState": "AgIAACcCAAAAAAAAAAAwwEkCAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T12:54:44.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListingGrid.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\List\\ListingGrid.cshtml",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\List\\ListingGrid.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\List\\ListingGrid.cshtml",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\List\\ListingGrid.cshtml",
-              "ViewState": "AgIAAEYCAAAAAAAAAAAwwGgCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T12:54:17.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ListController.cs",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ListController.cs",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\ListController.cs",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ListController.cs",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\ListController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:53:42.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShoppingCart.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Cart\\ShoppingCart.cshtml",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Cart\\ShoppingCart.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Cart\\ShoppingCart.cshtml",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Cart\\ShoppingCart.cshtml",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAwwL4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T12:51:07.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductDetail.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Product\\ProductDetail.cshtml",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Product\\ProductDetail.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Product\\ProductDetail.cshtml",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Product\\ProductDetail.cshtml",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAwGEAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T11:56:53.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\CartController.cs",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:50:30.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\UserController.cs",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:42:09.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\User\\Login.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\User\\Login.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T12:44:36.367Z",
+              "WhenOpened": "2025-02-11T11:04:16.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEgAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:25:26.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T11:46:03.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T11:00:26.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:23:28.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:27:28.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwv40AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T11:40:38.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAtwAwBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T11:13:38.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswEUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:29:57.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:24:17.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Context\\Category.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Context\\Category.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Context\\Category.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Context\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T04:58:24.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T11:00:44.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwEIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:26:17.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:26:34.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwD8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:29:08.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:25:52.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwEkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:26:57.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T11:01:34.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T11:01:24.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T11:01:00.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "XString.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Libary\\XString.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Libary\\XString.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Libary\\XString.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Libary\\XString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T03:46:22.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAYwAYBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T10:57:31.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:18:39.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "CategoryAll.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Category\\CategoryAll.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Category\\CategoryAll.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Category\\CategoryAll.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Category\\CategoryAll.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Category\\CategoryAll.cshtml",
               "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Category\\CategoryAll.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAwwLIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowDMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-13T12:17:20.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:17:02.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAP4AAAAAAAAAAAAQwB4BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAowCcBAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-13T12:11:56.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAtwB8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T12:11:24.631Z",
+              "WhenOpened": "2025-02-11T05:04:56.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Add.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Add.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Add.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:29:25.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Detail.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Detail.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Detail.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:29:42.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Delete.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\User\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:30:13.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Delete.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Delete.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Delete.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:28:43.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:28:27.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Detail.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Detail.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Detail.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:28:03.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Add.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Add.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Add.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Brand\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:27:47.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Detail.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Detail.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Detail.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:25:00.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:22:50.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:22:33.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Add.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Add.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Add.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Order\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:20:05.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T11:19:24.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Models\\UserModel.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Models\\UserModel.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T09:32:09.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:56:29.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwBMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T04:58:43.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "HomeModel.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Models\\HomeModel.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Models\\HomeModel.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Models\\HomeModel.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Models\\HomeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T13:04:27.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\CartController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:50:30.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:17:02.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ListingGrid.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Product\\ListingGrid.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Product\\ListingGrid.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Product\\ListingGrid.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Product\\ListingGrid.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAWwKQAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T05:21:48.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Product\\ProductDetail.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Product\\ProductDetail.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T11:56:53.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ListingList.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Product\\ListingList.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Product\\ListingList.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Product\\ListingList.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Product\\ListingList.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswD4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T05:22:29.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ShoppingCart.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Cart\\ShoppingCart.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Cart\\ShoppingCart.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Cart\\ShoppingCart.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Cart\\ShoppingCart.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAowEkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T04:46:58.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "OrderSuccess.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\OrderSuccess.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Order\\OrderSuccess.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\OrderSuccess.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Order\\OrderSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T05:05:56.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Order\\Checkout.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Order\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T05:06:32.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Order\\Details.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T05:07:14.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Models\\OrderModel.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Models\\OrderModel.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Models\\OrderModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T05:02:52.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Contact.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Home\\Contact.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -282,41 +959,144 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAALoBAAAAAAAAAAAAwNIBAAA6AAAAAAAAAA==",
+              "DocumentIndex": 53,
+              "Title": "CartItemModel.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Models\\CartItemModel.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Models\\CartItemModel.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Models\\CartItemModel.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Models\\CartItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T07:39:31.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ProductCategory.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Category\\ProductCategory.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Category\\ProductCategory.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Category\\ProductCategory.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Category\\ProductCategory.cshtml",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAtwAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T11:13:38.896Z",
+              "WhenOpened": "2025-01-10T12:05:22.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:46:03.571Z",
+              "DocumentIndex": 55,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Home\\Register.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAtwEAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T12:32:49.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Code\\C# Project\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "NguyenQuocViet_2122110285\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 56,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T12:39:48.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "dbModel.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Context\\dbModel.edmx",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Context\\dbModel.edmx",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Context\\dbModel.edmx [Diagram1]",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Context\\dbModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-10T06:14:48.738Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T10:56:40.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:40:38.786Z",
+              "WhenOpened": "2024-12-27T11:32:57.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\App_Start\\FilterConfig.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:31:05.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AdminAreaRegistration.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:55:58.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Global.asax.cs",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Global.asax.cs",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Global.asax.cs",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:10:37.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "NguyenQuocViet_2122110285\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Code\\C# Project\\DOAN(V1)\\NguyenQuocViet_2122110285\\NguyenQuocViet_2122110285\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "NguyenQuocViet_2122110285\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T12:11:24.631Z",
               "EditorCaption": ""
             }
           ]

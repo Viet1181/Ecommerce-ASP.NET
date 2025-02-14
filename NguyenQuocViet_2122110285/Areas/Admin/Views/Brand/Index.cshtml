@@ -1,0 +1,107 @@
+@model IEnumerable<NguyenQuocViet_2122110285.Context.Brand>
+
+@{
+    ViewBag.Title = "Danh sách thương hiệu";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh Sách Thương Hiệu</h2>
+
+<p>
+    @Html.ActionLink("Thêm Mới", "Add", null, new { @class = "btn btn-primary" })
+</p>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        @* <th>
+            @Html.DisplayNameFor(model => model.Slug)
+        </th> *@
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Logo)
+        </th>
+        @* <th>
+            @Html.DisplayNameFor(model => model.DisplayOrder)
+        </th> *@
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>Thao tác</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.Slug)
+            </td> *@
+            <td>
+                @if (item.Description != null && item.Description.Length > 100)
+                {
+                    @Html.Raw(item.Description.Substring(0, 100) + "...")
+                }
+                else
+                {
+                    @Html.Raw(item.Description)
+                }
+            </td>
+            <td>
+                @if (!string.IsNullOrEmpty(item.Logo))
+                {
+                    <img src="~/Content/images/items/@item.Logo" alt="@item.Name" style="max-width: 100px; max-height: 100px;" />
+                }
+                else
+                {
+                    <img src="~/Content/images/items/no-image.png" alt="No Image" style="max-width: 100px; max-height: 100px;" />
+                }
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.DisplayOrder)
+            </td> *@
+            <td>
+                @if (item.Status == true)
+                {
+                    <span class="badge badge-success">Hoạt động</span>
+                }
+                else
+                {
+                    <span class="badge badge-danger">Vô hiệu hóa</span>
+                }
+            </td>
+            <td>
+                <div class="btn-group">
+                    @Html.ActionLink("Sửa", "Edit", new { id=item.BrandID }, new { @class = "btn btn-warning btn-sm" })
+                    @Html.ActionLink("Chi tiết", "Detail", new { id=item.BrandID }, new { @class = "btn btn-info btn-sm" })
+                    @Html.ActionLink("Xóa", "Delete", new { id=item.BrandID }, new { @class = "btn btn-danger btn-sm" })
+                </div>
+            </td>
+        </tr>
+    }
+</table>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('.table').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Vietnamese.json"
+                }
+            });
+        });
+    </script>
+}

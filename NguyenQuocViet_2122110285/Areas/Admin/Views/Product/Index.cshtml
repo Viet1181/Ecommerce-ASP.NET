@@ -1,0 +1,87 @@
+@model IEnumerable<NguyenQuocViet_2122110285.Context.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh Sách Sản Phẩm</h2>
+
+<p>
+    @Html.ActionLink("Thêm Mới", "Add", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>Hình Ảnh</th>
+        <th>@Html.DisplayNameFor(model => model.Name)</th>
+        <th>@Html.DisplayNameFor(model => model.Slug)</th>
+        <th>@Html.DisplayNameFor(model => model.Description)</th>
+        <th>@Html.DisplayNameFor(model => model.ViewCount)</th>
+        <th>@Html.DisplayNameFor(model => model.Status)</th>
+        <th>@Html.DisplayNameFor(model => model.IsFeatured)</th>
+        <th>Brand @Html.DisplayNameFor(model => model.Brand.Name)</th>
+        <th>Category @Html.DisplayNameFor(model => model.Category.Name)</th>
+        <th>Thao Tác</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @{
+                    var mainImage = item.ProductImages.FirstOrDefault(i => i.IsMainImage==true) ?? item.ProductImages.FirstOrDefault();
+                    if (mainImage != null)
+                    {
+                        <img src="~/Content/images/items/@mainImage.ImageURL" alt="@item.Name" style="max-width: 100px; max-height: 100px;" class="img-thumbnail" />
+                    }
+                    else
+                    {
+                        <img src="~/Content/images/items/no-image.png" alt="No Image" style="max-width: 100px; max-height: 100px;" class="img-thumbnail" />
+                    }
+                }
+            </td>
+            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+            <td>@Html.DisplayFor(modelItem => item.Slug)</td>
+            <td>
+                @if (item.Description != null && item.Description.Length > 100)
+                {
+                    @Html.Raw(item.Description.Substring(0, 100) + "...")
+                }
+                else
+                {
+                    @Html.Raw(item.Description)
+                }
+            </td>
+            <td>@Html.DisplayFor(modelItem => item.Price)</td>
+            <td>@Html.DisplayFor(modelItem => item.DiscountPrice)</td>
+            <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+            <td>@Html.DisplayFor(modelItem => item.Brand.Name)</td>
+            <td>@Html.DisplayFor(modelItem => item.Category.Name)</td>
+            <td>
+                <div class="btn-group">
+                    @Html.ActionLink("Sửa", "Edit", new { id=item.ProductID }, new { @class = "btn btn-warning btn-sm" })
+                    @Html.ActionLink("Chi tiết", "Detail", new { id=item.ProductID }, new { @class = "btn btn-info btn-sm" })
+                    @Html.ActionLink("Xóa", "Delete", new { id=item.ProductID }, new { @class = "btn btn-danger btn-sm" })
+                </div>
+            </td>
+        </tr>
+    }
+</table>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('.table').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Vietnamese.json"
+                }
+            });
+        });
+    </script>
+}

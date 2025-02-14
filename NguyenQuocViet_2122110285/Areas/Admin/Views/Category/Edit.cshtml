@@ -1,0 +1,91 @@
+@model NguyenQuocViet_2122110285.Context.Category
+
+@{
+    ViewBag.Title = "Cập nhật danh mục";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">@ViewBag.Title</h3>
+                </div>
+                @using (Html.BeginForm("Edit", "Category", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="card-body">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.HiddenFor(model => model.CategoryID)
+                        @Html.HiddenFor(model => model.CreatedDate)
+                        @Html.HiddenFor(model => model.ImageURL)
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Name, "Tên danh mục")
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Description, "Mô tả")
+                            @Html.TextAreaFor(model => model.Description, new { @class = "form-control", rows = "3" })
+                            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ParentCategoryID, "Danh mục cha")
+                            @Html.DropDownList("ParentCategoryID", null, "-- Chọn danh mục cha --", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.ParentCategoryID, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.DisplayOrder, "Thứ tự hiển thị")
+                            @Html.EditorFor(model => model.DisplayOrder, new { htmlAttributes = new { @class = "form-control", type = "number" } })
+                            @Html.ValidationMessageFor(model => model.DisplayOrder, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            <div class="custom-control custom-switch">
+                                @Html.CheckBoxFor(model => model.Status, new { @class = "custom-control-input" })
+                                @Html.LabelFor(model => model.Status, "Trạng thái", new { @class = "custom-control-label" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Hình ảnh</label>
+                            <div class="input-group">
+                                <div class="custom-file">
+                                    <input type="file" name="ImageFile" class="custom-file-input" accept="image/*">
+                                    <label class="custom-file-label">Chọn file</label>
+                                </div>
+                            </div>
+                            @if (!string.IsNullOrEmpty(Model.ImageURL))
+                            {
+                                <div class="mt-2">
+                                    <img src="~/Content/images/items/@Model.ImageURL" alt="@Model.Name" style="max-width: 200px; height: auto;" class="img-thumbnail" />
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                        @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-default" })
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Hiển thị tên file khi chọn
+            $(".custom-file-input").on("change", function () {
+                var fileName = $(this).val().split("\\").pop();
+                $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+            });
+        });
+    </script>
+}

@@ -1,0 +1,73 @@
+@model NguyenQuocViet_2122110285.Context.Brand
+@{
+    ViewBag.Title = "Chi tiết thương hiệu";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Chi tiết thương hiệu</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Thông tin thương hiệu</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <dl class="row">
+                                <dt class="col-sm-3">Tên thương hiệu:</dt>
+                                <dd class="col-sm-9">@Model.Name</dd>
+
+                                <dt class="col-sm-3">Mô tả:</dt>
+                                <dd class="col-sm-9">@Model.Description</dd>
+
+                                @* <dt class="col-sm-3">Đường dẫn tĩnh:</dt>
+                                <dd class="col-sm-9">@Model.Slug</dd> *@
+
+                                <dt class="col-sm-3">Trạng thái:</dt>
+                                <dd class="col-sm-9">
+                                    @if (Model.Status)
+                                    {
+                                        <span class="badge badge-success">Hoạt động</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge badge-danger">Không hoạt động</span>
+                                    }
+                                </dd>
+
+                                <dt class="col-sm-3">Ngày tạo:</dt>
+                                <dd class="col-sm-9">@Model.CreatedDate.ToString("dd/MM/yyyy HH:mm:ss")</dd>
+
+                                <dt class="col-sm-3">Ngày cập nhật:</dt>
+                                <dd class="col-sm-9">@Model.ModifiedDate?.ToString("dd/MM/yyyy HH:mm:ss")</dd>
+                            </dl>
+                        </div>
+                        <div class="col-md-4">
+                            @if (!string.IsNullOrEmpty(Model.Logo))
+                            {
+                                <div class="text-center">
+                                    <img src="~/Content/images/items/@Model.Logo" alt="@Model.Name" class="img-fluid img-thumbnail" style="max-width: 300px;" />
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.BrandID }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-secondary" })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

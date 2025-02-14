@@ -1,0 +1,74 @@
+@model NguyenQuocViet_2122110285.Context.User
+
+@{
+    ViewBag.Title = "Xóa người dùng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xóa người dùng</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h3>Bạn có chắc chắn muốn xóa người dùng này?</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Thông tin cơ bản</h4>
+                <dl class="row">
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.FullName)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.FullName)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Username)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Username)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Email)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Email)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Phone)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Phone)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Role)</dt>
+                    <dd class="col-sm-8">
+                        @if (Model.Role == 1)
+                        {
+                            <span class="badge badge-primary">Quản trị viên</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-info">Khách hàng</span>
+                        }
+                    </dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Status)</dt>
+                    <dd class="col-sm-8">
+                        @if (Model.Status == true)
+                        {
+                            <span class="badge badge-success">Hoạt động</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-danger">Vô hiệu hóa</span>
+                        }
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <h4>Địa chỉ</h4>
+                <div class="border p-3">
+                    @Html.Raw(Model.Address)
+                </div>
+            </div>
+        </div>
+
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions mt-4">
+                <button type="submit" class="btn btn-danger">Xóa</button>
+                @Html.ActionLink("Trở về", "Index", null, new { @class = "btn btn-secondary" })
+            </div>
+        }
+    </div>
+</div>

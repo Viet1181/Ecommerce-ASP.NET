@@ -1,0 +1,87 @@
+@model NguyenQuocViet_2122110285.Context.Product
+
+@{
+    ViewBag.Title = "Chi tiết sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi tiết sản phẩm</h2>
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Thông tin cơ bản</h4>
+                <dl class="row">
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Name)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Price)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Price)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.DiscountPrice)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.DiscountPrice)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Quantity)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Quantity)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Brand.Name)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Brand.Name)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Category.Name)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Category.Name)</dd>
+                </dl>
+            </div>
+            <div class="col-md-6">
+                <h4>Hình ảnh sản phẩm</h4>
+                <div class="row">
+                    @if (Model.ProductImages != null && Model.ProductImages.Any())
+                    {
+                        foreach (var image in Model.ProductImages)
+                        {
+                            <div class="col-md-4 mb-3">
+                                <img src="~/Content/images/items/@image.ImageURL" alt="@Model.Name" class="img-thumbnail" style="max-width: 150px; max-height: 150px;" />
+                                @if (image.IsMainImage==true)
+                                {
+                                    <span class="badge badge-primary">Ảnh chính</span>
+                                }
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="col-12">
+                            <img src="~/Content/images/items/no-image.png" alt="No Image" class="img-thumbnail" style="max-width: 150px; max-height: 150px;" />
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <h4>Mô tả sản phẩm</h4>
+                <div class="border p-3">
+                    @Html.Raw(Model.Description)
+                </div>
+            </div>
+        </div>
+
+        @if (!string.IsNullOrEmpty(Model.Specification))
+        {
+            <div class="row mt-4">
+                <div class="col-12">
+                    <h4>Thông số kỹ thuật</h4>
+                    <div class="border p-3">
+                        @Html.Raw(Model.Specification)
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="mt-3">
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.ProductID }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Trở về", "Index", null, new { @class = "btn btn-secondary" })
+</div>
