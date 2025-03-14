@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn người dùng - Ứng dụng Thương mại Điện tử ASP.NET MVC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .sidebar {
+            position: sticky;
+            top: 2rem;
+            height: calc(100vh - 4rem);
+            overflow-y: auto;
+        }
+        .doc-header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e5e5e5;
+            color: #777;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 0.25rem;
+        }
+        .nav-pills .nav-link {
+            color: #495057;
+        }
+        .nav-pills .nav-link.active {
+            background-color: #0d6efd;
+            color: white;
+        }
+        h2 {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e5e5e5;
+        }
+        h3 {
+            margin-top: 1.5rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 0.25rem;
+            margin: 1rem 0;
+        }
+        .step-image {
+            max-width: 80%;
+            display: block;
+            margin: 1rem auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="doc-header">
+        <div class="container">
+            <h1>Hướng dẫn người dùng</h1>
+            <p class="lead">Cách sử dụng ứng dụng thương mại điện tử</p>
+            <a href="index.html" class="btn btn-light">Quay lại trang tài liệu</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidebar">
+                    <h4>Mục lục</h4>
+                    <div class="nav flex-column nav-pills">
+                        <a class="nav-link active" href="#getting-started">Bắt đầu</a>
+                        <a class="nav-link" href="#registration">Đăng ký & Đăng nhập</a>
+                        <a class="nav-link" href="#browsing">Xem & Tìm kiếm sản phẩm</a>
+                        <a class="nav-link" href="#shopping-cart">Giỏ hàng</a>
+                        <a class="nav-link" href="#checkout">Thanh toán</a>
+                        <a class="nav-link" href="#orders">Quản lý đơn hàng</a>
+                        <a class="nav-link" href="#profile">Quản lý tài khoản</a>
+                    </div>
+                    
+                    <h4 class="mt-4">Tài liệu khác</h4>
+                    <div class="list-group">
+                        <a href="admin-guide.html" class="list-group-item list-group-item-action">Hướng dẫn quản trị</a>
+                        <a href="developer-guide.html" class="list-group-item list-group-item-action">Hướng dẫn phát triển</a>
+                        <a href="index.html" class="list-group-item list-group-item-action">Tài liệu tổng quan</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-9">
+                <div id="content">
+                    <section id="getting-started">
+                        <h2>Bắt đầu sử dụng</h2>
+                        <p>
+                            Chào mừng bạn đến với Hướng dẫn sử dụng Ứng dụng Thương mại Điện tử. Tài liệu này sẽ giúp bạn hiểu cách sử dụng các tính năng của ứng dụng, từ việc đăng ký tài khoản, xem và tìm kiếm sản phẩm, mua hàng đến việc quản lý đơn hàng và tài khoản cá nhân.
+                        </p>
+                        <div class="alert alert-info">
+                            <i class="bi bi-info-circle"></i> Để có trải nghiệm tốt nhất, bạn nên sử dụng các trình duyệt web hiện đại như Google Chrome, Mozilla Firefox, Microsoft Edge hoặc Safari phiên bản mới nhất.
+                        </div>
+                    </section>
+                    
+                    <section id="registration">
+                        <h2>Đăng ký & Đăng nhập</h2>
+                        
+                        <h3>Đăng ký tài khoản mới</h3>
+                        <p>Để đăng ký tài khoản mới, bạn thực hiện các bước sau:</p>
+                        <ol>
+                            <li>Nhấp vào liên kết "Đăng nhập" ở góc trên bên phải của trang web</li>
+                            <li>Chọn "Đăng ký" nếu bạn chưa có tài khoản</li>
+                            <li>Điền đầy đủ thông tin vào form đăng ký:
+                                <ul>
+                                    <li>Họ và tên</li>
+                                    <li>Email (sẽ được sử dụng làm tên đăng nhập)</li>
+                                    <li>Mật khẩu</li>
+                                    <li>Xác nhận mật khẩu</li>
+                                </ul>
+                            </li>
+                            <li>Nhấp vào nút "Đăng ký" để hoàn tất quá trình</li>
+                        </ol>
+                        
+                        <h3>Đăng nhập</h3>
+                        <p>Để đăng nhập vào tài khoản của bạn:</p>
+                        <ol>
+                            <li>Nhấp vào liên kết "Đăng nhập" ở góc trên bên phải của trang web</li>
+                            <li>Nhập email và mật khẩu của bạn</li>
+                            <li>Tùy chọn: Đánh dấu "Ghi nhớ đăng nhập" nếu bạn muốn duy trì đăng nhập</li>
+                            <li>Nhấp vào nút "Đăng nhập"</li>
+                        </ol>
+                        
+                        <h3>Quên mật khẩu</h3>
+                        <p>Nếu bạn quên mật khẩu:</p>
+                        <ol>
+                            <li>Nhấp vào liên kết "Quên mật khẩu?" trên trang đăng nhập</li>
+                            <li>Nhập email đăng ký của bạn</li>
+                            <li>Nhấp vào nút "Gửi email khôi phục"</li>
+                            <li>Kiểm tra email của bạn và làm theo hướng dẫn để đặt lại mật khẩu</li>
+                        </ol>
+                    </section>
+                    
+                    <section id="browsing">
+                        <h2>Xem & Tìm kiếm sản phẩm</h2>
+                        
+                        <h3>Xem sản phẩm theo danh mục</h3>
+                        <p>Có nhiều cách để duyệt sản phẩm theo danh mục:</p>
+                        <ul>
+                            <li>Sử dụng menu "Danh mục" trên thanh điều hướng</li>
+                            <li>Nhấp vào các danh mục được hiển thị trên trang chủ</li>
+                            <li>Sử dụng liên kết "Xem tất cả danh mục" để xem đầy đủ các danh mục</li>
+                        </ul>
+                        
+                        <h3>Tìm kiếm sản phẩm</h3>
+                        <p>Để tìm kiếm sản phẩm:</p>
+                        <ol>
+                            <li>Sử dụng ô tìm kiếm ở đầu trang</li>
+                            <li>Tùy chọn: Chọn danh mục để thu hẹp kết quả tìm kiếm</li>
+                            <li>Nhập từ khóa tìm kiếm</li>
+                            <li>Nhấp vào nút "Tìm kiếm" hoặc nhấn Enter</li>
+                        </ol>
+                        
+                        <h3>Lọc và sắp xếp sản phẩm</h3>
+                        <p>Khi xem danh sách sản phẩm, bạn có thể:</p>
+                        <ul>
+                            <li>Lọc theo giá: Sử dụng thanh trượt để chọn khoảng giá</li>
+                            <li>Lọc theo thương hiệu: Chọn các thương hiệu bạn quan tâm</li>
+                            <li>Sắp xếp theo: Giá (thấp đến cao), Giá (cao đến thấp), Mới nhất, Bán chạy nhất</li>
+                        </ul>
+                        
+                        <h3>Xem chi tiết sản phẩm</h3>
+                        <p>Để xem thông tin chi tiết về một sản phẩm, nhấp vào hình ảnh hoặc tên sản phẩm. Trang chi tiết sản phẩm hiển thị:</p>
+                        <ul>
+                            <li>Hình ảnh sản phẩm (có thể xem nhiều hình)</li>
+                            <li>Thông tin chi tiết (tên, giá, mô tả)</li>
+                            <li>Thông số kỹ thuật</li>
+                            <li>Đánh giá từ khách hàng</li>
+                            <li>Sản phẩm liên quan</li>
+                        </ul>
+                    </section>
+                    
+                    <section id="shopping-cart">
+                        <h2>Giỏ hàng</h2>
+                        
+                        <h3>Thêm sản phẩm vào giỏ hàng</h3>
+                        <p>Có hai cách để thêm sản phẩm vào giỏ hàng:</p>
+                        <ol>
+                            <li>Từ trang danh sách sản phẩm: Nhấp vào nút "Thêm vào giỏ hàng" bên dưới sản phẩm</li>
+                            <li>Từ trang chi tiết sản phẩm:
+                                <ul>
+                                    <li>Chọn số lượng sản phẩm</li>
+                                    <li>Nhấp vào nút "Thêm vào giỏ hàng"</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        
+                        <h3>Xem giỏ hàng</h3>
+                        <p>Để xem giỏ hàng của bạn:</p>
+                        <ol>
+                            <li>Nhấp vào biểu tượng giỏ hàng ở góc trên bên phải của trang web</li>
+                            <li>Hoặc nhấp vào liên kết "Giỏ hàng" trong menu</li>
+                        </ol>
+                        
+                        <h3>Cập nhật giỏ hàng</h3>
+                        <p>Trong trang giỏ hàng, bạn có thể:</p>
+                        <ul>
+                            <li>Thay đổi số lượng sản phẩm bằng cách sử dụng nút +/- hoặc nhập trực tiếp</li>
+                            <li>Xóa sản phẩm khỏi giỏ hàng bằng cách nhấp vào biểu tượng thùng rác</li>
+                            <li>Nhấp vào nút "Cập nhật giỏ hàng" để lưu các thay đổi</li>
+                        </ul>
+                    </section>
+                    
+                    <section id="checkout">
+                        <h2>Thanh toán</h2>
+                        
+                        <h3>Tiến hành thanh toán</h3>
+                        <p>Để tiến hành thanh toán:</p>
+                        <ol>
+                            <li>Xem lại giỏ hàng của bạn</li>
+                            <li>Nhấp vào nút "Tiến hành thanh toán"</li>
+                            <li>Nếu bạn chưa đăng nhập, hệ thống sẽ yêu cầu bạn đăng nhập hoặc đăng ký</li>
+                        </ol>
+                        
+                        <h3>Nhập thông tin giao hàng</h3>
+                        <p>Điền thông tin giao hàng của bạn:</p>
+                        <ul>
+                            <li>Họ tên người nhận</li>
+                            <li>Địa chỉ giao hàng</li>
+                            <li>Số điện thoại</li>
+                            <li>Email</li>
+                            <li>Ghi chú đặt hàng (nếu có)</li>
+                        </ul>
+                        
+                        <h3>Chọn phương thức thanh toán</h3>
+                        <p>Chọn một trong các phương thức thanh toán có sẵn:</p>
+                        <ul>
+                            <li>Thanh toán khi nhận hàng (COD)</li>
+                            <li>Chuyển khoản ngân hàng</li>
+                            <li>Thẻ tín dụng/Thẻ ghi nợ</li>
+                            <li>Ví điện tử (nếu có)</li>
+                        </ul>
+                        
+                        <h3>Xác nhận đơn hàng</h3>
+                        <p>Sau khi chọn phương thức thanh toán:</p>
+                        <ol>
+                            <li>Xem lại thông tin đơn hàng và tổng thanh toán</li>
+                            <li>Nhấp vào nút "Đặt hàng" để xác nhận đơn hàng</li>
+                            <li>Bạn sẽ nhận được mã đơn hàng và email xác nhận</li>
+                        </ol>
+                    </section>
+                    
+                    <section id="orders">
+                        <h2>Quản lý đơn hàng</h2>
+                        
+                        <h3>Xem đơn hàng</h3>
+                        <p>Để xem các đơn hàng của bạn:</p>
+                        <ol>
+                            <li>Đăng nhập vào tài khoản của bạn</li>
+                            <li>Nhấp vào tên người dùng ở góc trên bên phải</li>
+                            <li>Chọn "Đơn hàng của tôi" từ menu thả xuống</li>
+                        </ol>
+                        
+                        <h3>Chi tiết đơn hàng</h3>
+                        <p>Để xem chi tiết đơn hàng:</p>
+                        <ol>
+                            <li>Trong trang "Đơn hàng của tôi", nhấp vào mã đơn hàng hoặc nút "Xem chi tiết"</li>
+                            <li>Trang chi tiết đơn hàng hiển thị:
+                                <ul>
+                                    <li>Thông tin đơn hàng (mã, ngày đặt, trạng thái)</li>
+                                    <li>Thông tin giao hàng</li>
+                                    <li>Danh sách sản phẩm đã đặt</li>
+                                    <li>Tổng thanh toán</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        
+                        <h3>Hủy đơn hàng</h3>
+                        <p>Để hủy đơn hàng (chỉ áp dụng cho đơn hàng chưa được xử lý):</p>
+                        <ol>
+                            <li>Xem chi tiết đơn hàng</li>
+                            <li>Nhấp vào nút "Hủy đơn hàng"</li>
+                            <li>Xác nhận hủy đơn hàng</li>
+                        </ol>
+                    </section>
+                    
+                    <section id="profile">
+                        <h2>Quản lý tài khoản</h2>
+                        
+                        <h3>Xem & Cập nhật thông tin cá nhân</h3>
+                        <p>Để xem và cập nhật thông tin cá nhân:</p>
+                        <ol>
+                            <li>Đăng nhập vào tài khoản của bạn</li>
+                            <li>Nhấp vào tên người dùng ở góc trên bên phải</li>
+                            <li>Chọn "Thông tin tài khoản" từ menu thả xuống</li>
+                            <li>Cập nhật thông tin cần thiết</li>
+                            <li>Nhấp vào nút "Lưu thay đổi"</li>
+                        </ol>
+                        
+                        <h3>Đổi mật khẩu</h3>
+                        <p>Để đổi mật khẩu:</p>
+                        <ol>
+                            <li>Trong trang "Thông tin tài khoản", nhấp vào tab "Đổi mật khẩu"</li>
+                            <li>Nhập mật khẩu hiện tại</li>
+                            <li>Nhập mật khẩu mới</li>
+                            <li>Xác nhận mật khẩu mới</li>
+                            <li>Nhấp vào nút "Cập nhật mật khẩu"</li>
+                        </ol>
+                        
+                        <h3>Quản lý địa chỉ giao hàng</h3>
+                        <p>Để quản lý địa chỉ giao hàng:</p>
+                        <ol>
+                            <li>Trong trang "Thông tin tài khoản", nhấp vào tab "Địa chỉ của tôi"</li>
+                            <li>Xem danh sách địa chỉ đã lưu</li>
+                            <li>Thêm địa chỉ mới: Nhấp vào nút "Thêm địa chỉ mới" và điền thông tin</li>
+                            <li>Sửa địa chỉ: Nhấp vào nút "Sửa" bên cạnh địa chỉ và cập nhật thông tin</li>
+                            <li>Xóa địa chỉ: Nhấp vào nút "Xóa" bên cạnh địa chỉ</li>
+                        </ol>
+                    </section>
+                </div>
+                
+                <div class="footer">
+                    <p>
+                        Phát triển bởi Nguyen Quoc Viet &copy; 2025<br>
+                        Phân phối dưới <a href="../LICENSE">Giấy phép MIT</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

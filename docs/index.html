@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài liệu - Ứng dụng Thương mại Điện tử ASP.NET MVC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .sidebar {
+            position: sticky;
+            top: 2rem;
+            height: calc(100vh - 4rem);
+            overflow-y: auto;
+        }
+        .doc-header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e5e5e5;
+            color: #777;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 0.25rem;
+        }
+        .nav-pills .nav-link {
+            color: #495057;
+        }
+        .nav-pills .nav-link.active {
+            background-color: #0d6efd;
+            color: white;
+        }
+        h2 {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e5e5e5;
+        }
+        h3 {
+            margin-top: 1.5rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 0.25rem;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="doc-header">
+        <div class="container">
+            <h1>Tài liệu Ứng dụng Thương mại Điện tử</h1>
+            <p class="lead">Hướng dẫn chi tiết về cài đặt, sử dụng và phát triển ứng dụng</p>
+            <a href="../index.html" class="btn btn-light">Quay lại trang chủ</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidebar">
+                    <h4>Mục lục</h4>
+                    <div class="nav flex-column nav-pills">
+                        <a class="nav-link active" href="#overview">Tổng quan</a>
+                        <a class="nav-link" href="#installation">Cài đặt</a>
+                        <a class="nav-link" href="#architecture">Kiến trúc hệ thống</a>
+                        <a class="nav-link" href="#features">Chức năng chính</a>
+                        <a class="nav-link" href="#database">Cơ sở dữ liệu</a>
+                        <a class="nav-link" href="#api">API và Integration</a>
+                        <a class="nav-link" href="#deployment">Triển khai</a>
+                        <a class="nav-link" href="#faq">Câu hỏi thường gặp</a>
+                    </div>
+                    
+                    <h4 class="mt-4">Tài liệu khác</h4>
+                    <div class="list-group">
+                        <a href="user-guide.html" class="list-group-item list-group-item-action">Hướng dẫn người dùng</a>
+                        <a href="admin-guide.html" class="list-group-item list-group-item-action">Hướng dẫn quản trị</a>
+                        <a href="developer-guide.html" class="list-group-item list-group-item-action">Hướng dẫn phát triển</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-9">
+                <div id="content">
+                    <section id="overview">
+                        <h2>Tổng quan về ứng dụng</h2>
+                        <p>
+                            Ứng dụng Thương mại Điện tử ASP.NET MVC là một hệ thống bán hàng trực tuyến đầy đủ tính năng, bao gồm cả phần người dùng và phần quản trị. Ứng dụng được xây dựng trên nền tảng ASP.NET MVC 5, sử dụng Entity Framework để tương tác với cơ sở dữ liệu SQL Server.
+                        </p>
+                        <p>
+                            Ứng dụng cung cấp các chức năng chính như:
+                        </p>
+                        <ul>
+                            <li>Quản lý sản phẩm, danh mục, thương hiệu</li>
+                            <li>Hệ thống giỏ hàng và thanh toán</li>
+                            <li>Quản lý đơn hàng</li>
+                            <li>Quản lý người dùng và phân quyền</li>
+                            <li>Tìm kiếm và lọc sản phẩm</li>
+                        </ul>
+                    </section>
+                    
+                    <section id="installation">
+                        <h2>Cài đặt và cấu hình</h2>
+                        <h3>Yêu cầu hệ thống</h3>
+                        <ul>
+                            <li>Visual Studio 2019 trở lên</li>
+                            <li>SQL Server 2014 trở lên</li>
+                            <li>.NET Framework 4.7.2 trở lên</li>
+                            <li>IIS Express hoặc IIS</li>
+                        </ul>
+                        
+                        <h3>Các bước cài đặt</h3>
+                        <ol>
+                            <li>
+                                <strong>Clone Repository</strong>
+                                <pre><code>git clone https://github.com/username/e-commerce-mvc.git</code></pre>
+                            </li>
+                            <li>
+                                <strong>Mở Solution</strong>
+                                <p>Mở file <code>NguyenQuocViet_2122110285.sln</code> bằng Visual Studio</p>
+                            </li>
+                            <li>
+                                <strong>Khôi phục Database</strong>
+                                <p>Sử dụng SQL Server Management Studio để tạo cơ sở dữ liệu mới và chạy script <code>ECommece.sql</code> để tạo các bảng và dữ liệu mẫu</p>
+                            </li>
+                            <li>
+                                <strong>Cấu hình Connection String</strong>
+                                <p>Mở file <code>Web.config</code> và cập nhật connection string để kết nối với cơ sở dữ liệu</p>
+                                <pre><code>&lt;connectionStrings&gt;
+    &lt;add name="ECommerceDBEntities" connectionString="metadata=res://*/Context.dbModel.csdl|res://*/Context.dbModel.ssdl|res://*/Context.dbModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=YOUR_SERVER;initial catalog=YOUR_DATABASE;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" /&gt;
+&lt;/connectionStrings&gt;</code></pre>
+                            </li>
+                            <li>
+                                <strong>Build và chạy ứng dụng</strong>
+                                <p>Nhấn F5 hoặc Ctrl+F5 để build và chạy ứng dụng</p>
+                            </li>
+                        </ol>
+                    </section>
+                    
+                    <section id="architecture">
+                        <h2>Kiến trúc hệ thống</h2>
+                        <p>
+                            Ứng dụng được xây dựng theo mô hình MVC (Model-View-Controller), theo đó:
+                        </p>
+                        <ul>
+                            <li><strong>Model:</strong> Đại diện cho dữ liệu và logic nghiệp vụ</li>
+                            <li><strong>View:</strong> Hiển thị dữ liệu và giao diện người dùng</li>
+                            <li><strong>Controller:</strong> Xử lý các request từ người dùng, tương tác với Model và trả về View</li>
+                        </ul>
+                        
+                        <h3>Cấu trúc thư mục</h3>
+                        <pre><code>
+NguyenQuocViet_2122110285/
+├── App_Data             # Dữ liệu ứng dụng
+├── App_Start            # Cấu hình khởi động ứng dụng
+├── Areas                # Phân vùng ứng dụng (Admin area)
+├── Content              # CSS, images, và các tài nguyên khác
+├── Context              # Các entity và DbContext
+├── Controllers          # Controllers xử lý request
+├── Libary               # Thư viện và tiện ích
+├── Models               # Model và ViewModel
+├── Scripts              # JavaScript và thư viện client-side
+├── Views                # Giao diện người dùng
+├── Global.asax          # Cấu hình application
+└── Web.config           # Cấu hình ứng dụng
+                        </code></pre>
+                    </section>
+                    
+                    <section id="features">
+                        <h2>Chức năng chính</h2>
+                        
+                        <h3>Phần người dùng</h3>
+                        <ul>
+                            <li><strong>Đăng ký/Đăng nhập:</strong> Người dùng có thể đăng ký tài khoản mới và đăng nhập vào hệ thống</li>
+                            <li><strong>Xem sản phẩm:</strong> Hiển thị sản phẩm theo danh mục, thương hiệu</li>
+                            <li><strong>Tìm kiếm:</strong> Tìm kiếm sản phẩm theo từ khóa và danh mục</li>
+                            <li><strong>Giỏ hàng:</strong> Thêm sản phẩm vào giỏ hàng, cập nhật số lượng hoặc xóa sản phẩm</li>
+                            <li><strong>Đặt hàng:</strong> Đặt hàng và theo dõi tình trạng đơn hàng</li>
+                            <li><strong>Xem lịch sử đơn hàng:</strong> Người dùng có thể xem lại các đơn hàng đã đặt</li>
+                        </ul>
+                        
+                        <h3>Phần quản trị</h3>
+                        <ul>
+                            <li><strong>Quản lý sản phẩm:</strong> Thêm, sửa, xóa sản phẩm và ảnh sản phẩm</li>
+                            <li><strong>Quản lý danh mục:</strong> Thêm, sửa, xóa danh mục sản phẩm</li>
+                            <li><strong>Quản lý thương hiệu:</strong> Thêm, sửa, xóa thương hiệu</li>
+                            <li><strong>Quản lý đơn hàng:</strong> Xem, cập nhật trạng thái đơn hàng</li>
+                            <li><strong>Quản lý người dùng:</strong> Quản lý thông tin người dùng</li>
+                        </ul>
+                    </section>
+                    
+                    <section id="database">
+                        <h2>Cơ sở dữ liệu</h2>
+                        <p>
+                            Ứng dụng sử dụng Entity Framework với mô hình Database First để tương tác với cơ sở dữ liệu SQL Server. Các bảng chính trong cơ sở dữ liệu bao gồm:
+                        </p>
+                        <ul>
+                            <li><strong>Users:</strong> Lưu trữ thông tin người dùng</li>
+                            <li><strong>Categories:</strong> Lưu trữ thông tin danh mục sản phẩm</li>
+                            <li><strong>Brands:</strong> Lưu trữ thông tin thương hiệu</li>
+                            <li><strong>Products:</strong> Lưu trữ thông tin sản phẩm</li>
+                            <li><strong>ProductImages:</strong> Lưu trữ ảnh sản phẩm</li>
+                            <li><strong>Orders:</strong> Lưu trữ thông tin đơn hàng</li>
+                            <li><strong>OrderDetails:</strong> Lưu trữ chi tiết đơn hàng</li>
+                            <li><strong>Carts:</strong> Lưu trữ thông tin giỏ hàng</li>
+                            <li><strong>Reviews:</strong> Lưu trữ đánh giá sản phẩm</li>
+                            <li><strong>Wishlists:</strong> Lưu trữ danh sách yêu thích</li>
+                        </ul>
+                    </section>
+                    
+                    <section id="api">
+                        <h2>API và Integration</h2>
+                        <p>
+                            Ứng dụng cung cấp một số API để tích hợp với các hệ thống khác. Để sử dụng API, bạn cần có API Key và cấu hình phù hợp.
+                        </p>
+                        <h3>Các API chính</h3>
+                        <ul>
+                            <li><strong>Sản phẩm API:</strong> Cho phép truy vấn và quản lý sản phẩm</li>
+                            <li><strong>Đơn hàng API:</strong> Cho phép tạo và quản lý đơn hàng</li>
+                            <li><strong>Người dùng API:</strong> Cho phép quản lý thông tin người dùng</li>
+                        </ul>
+                    </section>
+                    
+                    <section id="deployment">
+                        <h2>Triển khai</h2>
+                        <h3>Triển khai trên IIS</h3>
+                        <ol>
+                            <li>Mở Internet Information Services (IIS) Manager</li>
+                            <li>Tạo một website mới hoặc application mới</li>
+                            <li>Chọn đường dẫn đến thư mục chứa ứng dụng</li>
+                            <li>Cấu hình application pool sử dụng .NET Framework 4.7.2 hoặc cao hơn</li>
+                            <li>Cấu hình connection string trong Web.config</li>
+                            <li>Khởi động ứng dụng</li>
+                        </ol>
+                        
+                        <h3>Triển khai trên Azure</h3>
+                        <ol>
+                            <li>Tạo một Azure App Service</li>
+                            <li>Cấu hình deployment từ Git repository</li>
+                            <li>Tạo một Azure SQL Database</li>
+                            <li>Cập nhật connection string trong Application Settings của Azure App Service</li>
+                            <li>Chạy migrations để tạo cơ sở dữ liệu</li>
+                        </ol>
+                    </section>
+                    
+                    <section id="faq">
+                        <h2>Câu hỏi thường gặp</h2>
+                        <div class="accordion" id="accordionFAQ">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Làm thế nào để reset mật khẩu admin?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        Để reset mật khẩu admin, bạn cần truy cập vào cơ sở dữ liệu và cập nhật mật khẩu trong bảng Users. Lưu ý rằng mật khẩu được mã hóa bằng MD5, bạn cần cung cấp giá trị MD5 mới.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Làm thế nào để thêm phương thức thanh toán mới?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        Để thêm phương thức thanh toán mới, bạn cần:
+                                        <ol>
+                                            <li>Tạo một class mới trong thư mục Payment để xử lý logic thanh toán</li>
+                                            <li>Cập nhật interface IPaymentMethod</li>
+                                            <li>Thêm phương thức thanh toán mới vào OrderController</li>
+                                            <li>Thêm view mới để hiển thị form thanh toán</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Làm thế nào để cấu hình email thông báo?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        Để cấu hình email thông báo, bạn cần cập nhật các thông tin SMTP trong Web.config:
+                                        <pre><code>&lt;system.net&gt;
+    &lt;mailSettings&gt;
+        &lt;smtp from="your-email@example.com"&gt;
+            &lt;network host="smtp.example.com" port="587" userName="your-email@example.com" password="your-password" enableSsl="true" /&gt;
+        &lt;/smtp&gt;
+    &lt;/mailSettings&gt;
+&lt;/system.net&gt;</code></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="footer">
+                    <p>
+                        Phát triển bởi Nguyen Quoc Viet &copy; 2025<br>
+                        Phân phối dưới <a href="../LICENSE">Giấy phép MIT</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
